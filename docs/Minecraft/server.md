@@ -59,7 +59,7 @@
   	* Basically it is this
     	* Create a Forge Server
       * Fill out all the necessary details
-      * ![Alt text](../../images/screengrabs/mc_server_create_new_server.png)
+      * ![/images/screengrabs/mc_server_create_new_server.png](/images/screengrabs/mc_server_create_new_server.png)
       	- [x] Modded
         - [x] forge
         - [x] Server Version (Check the one needed from you [Modpack](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4))
