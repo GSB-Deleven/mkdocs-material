@@ -1,17 +1,50 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# MkDocs
 
-## Commands
+For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Useful Stuff
+* :material-simple-icons: :fontawesome-solid-icons: [icon search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Edit Page
+
+1. Edit Page in :material-microsoft-visual-studio-code: VS CODE
+
+!!! tip
+    I usually access it via :simple-github: GitHub Desktop
+
+
+
+2. Preview on http://localhost:8000/
+
+```title="Command"
+mkdocs serve
+```
+
+```shell title="Expected Output" hl_lines="1"
+PS X:\OneDrive\Documents\GitHub\mkdocs-material> mkdocs serve # (1)!
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 0.44 seconds
+INFO    -  [20:07:01] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [20:07:01] Serving on http://127.0.0.1:8000/
+INFO    -  [20:07:03] Browser connected: http://localhost:8000/
+```
+
+1.  This Command will run the live preview on http://localhost:8000/ , you can exit it with ++ctrl+c++ 
+
+If you are happy with it ++ctrl+c++ to exit, and run
+```title="Command"
+mkdocs build
+```
+
+```title="Expected Output" hl_lines="1"
+PS X:\OneDrive\Documents\GitHub\mkdocs-material> mkdocs build
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: X:\OneDrive\Documents\GitHub\mkdocs-material\site
+INFO    -  Documentation built in 0.80 seconds
+```
+
+Commit and Push to :simple-github: GitHub (usually via GitHub Desktop)
+
