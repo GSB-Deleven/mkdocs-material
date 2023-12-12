@@ -87,7 +87,7 @@
 
 * when it autorefreshed and for that matter uploaded, Rightclick to extract
 * Adjust the `server.properties`, `whitelist.json` and `ops.json` (or do it ingame afterwords)
-	* my default [server.properties](server.properties)
+	* my default [server.properties](https://github.com/GSB-Deleven/mkdocs-material/blob/f553e9ed95267758aae6566f9ce995e04a6e18e0/docs/Minecraft/server.properties)
 
 * Adjust the `configs` with the right `IP`, `Port` and the `Autostart`, `Crash Detection` and `Show on Public Status Page` Toggle
 	* ![Alt text](../images/screengrabs/mc_server_config.png)
