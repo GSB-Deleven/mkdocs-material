@@ -149,10 +149,10 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-# nav:
-#   - Home: index.md
-#   - Getting started:
-#     - Installation: getting-started.md
+nav:
+  - Home: index.md
+  - MineCraft:
+    - Server: Minecraft/server.md
 #     - Creating your site: creating-your-site.md
 #     - Publishing your site: publishing-your-site.md
 #     - Customization: customization.md
