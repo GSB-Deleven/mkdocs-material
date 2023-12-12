@@ -5,6 +5,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 
 ## Useful Stuff
 * :material-simple-icons: :fontawesome-solid-icons: [icon search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+* [Admonition Types (Tips, Warnings, etc)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
 
 
 ## Edit Page
