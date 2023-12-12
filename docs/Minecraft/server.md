@@ -37,15 +37,18 @@
 	./run_crafty.sh
 	````
 
+	!!! info
+		If you said yes to adding a service file you may run the following to start Crafty
+		```
+		sudo systemctl start crafty`
+		```
 
-	> If you said yes to adding a service file you may run the following to start Crafty
-	> 
-	> `sudo systemctl start crafty`
-	> 
-	> If you added a service file and want to have Crafty start automatically on system boot please run the following:
-	> 
-	> `sudo systemctl enable crafty`
-	{.is-info}
+		If you added a service file and want to have Crafty start automatically on system boot please run the following:
+
+		```
+		sudo systemctl enable crafty`
+		```
+
 
 3. now you should be able to access the Crafty Controller via `https://YOUR_SERVER_IP:8443`
 > Username: `admin`

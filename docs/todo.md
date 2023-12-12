@@ -1,0 +1,11 @@
+# ToDo
+
+## MkDocs
+- [ ] Adjust Links to `Proxmox Ubuntu LXC Container`
+- [ ] Link to `server.properties` file in GitHub Repo
+- [ ] Copy Content vom [HomeLab Repo](https://github.com/GSB-Deleven/HomeLab)
+    - [ ] Delete WikiJS
+
+## MineCraft
+
+## Proxmox

@@ -151,6 +151,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - ToDo: todo.md
   - MineCraft:
     - Server: Minecraft/server.md
 #     - Creating your site: creating-your-site.md
