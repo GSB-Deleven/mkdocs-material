@@ -617,13 +617,15 @@ Password: <code>crafty</code></p>
 </ul>
 <h2 id="create-your-servers-in-crafty-controller-4">Create your Servers in Crafty Controller 4<a class="headerlink" href="#create-your-servers-in-crafty-controller-4" title="Permanent link">&para;</a></h2>
 <ul>
-<li>I used <a href="https://www.youtube.com/watch?v=hrIDMx4Leng">this Guide</a> to create my Better MineCraft 4 Server<ul>
+<li>
+<p>I used <a href="https://www.youtube.com/watch?v=hrIDMx4Leng">this Guide</a> to create my Better MineCraft 4 Server</p>
+<ul>
 <li>Basically it is this<ul>
 <li>Create a Forge Server</li>
 </ul>
 </li>
 <li>Fill out all the necessary details</li>
-<li><img alt="Alt text" src="../../images/screengrabs/mc_server_create_new_server.png" /><ul class="task-list">
+<li><img alt="mc_server_create_new_server.png" src="../../images/screengrabs/mc_server_create_new_server.png" /><ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Modded</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> forge</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Server Version (Check the one needed from you <a href="https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4">Modpack</a>)</li>
@@ -631,44 +633,47 @@ Password: <code>crafty</code></p>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Set the Server Port</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Build Server!</li>
 <li>Download the Modpack you want from <a href="https://www.curseforge.com/minecraft/search?page=1&amp;pageSize=20&amp;sortType=2&amp;class=modpacks">Curse-Forge</a> make sure download the <code>Server Pack</code>, not the regular one<ul>
-<li><img alt="Alt text" src="../../images/screengrabs/download_serverpack.png" /></li>
+<li><img alt="download_serverpack.png" src="../../images/screengrabs/download_serverpack.png" /></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Upload the ZIP File<ul>
-<li><img alt="upload_zip.png" src="/upload_zip.png" /><blockquote>
-<p class="is-warning">you might run in to the issue that it isnt uploading, that means you need to adjust the streamsize in here to 10GB or 100GB (if it is bigger the 1GB): </p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo nano /var/opt/minecraft/crafty/crafty-4/app/config/config.json
-</span></code></pre></div>
-<img alt="crafty_config.png" src="/crafty_config.png" /></p>
-<ul>
-<li>when it autorefreshed and for that matter uploaded, Rightclick to extract</li>
 <li>
-<p>Adjust the server.properties, whitelist.json and ops.json (or do it ingame afterwords)</p>
+<p>Upload the ZIP File</p>
 <ul>
-<li>my default <a href="/home/Minecraft/Server/server">server.properties</a></li>
+<li><img alt="mc_server_upload_zip.png" src="../../images/screengrabs/mc_server_upload_zip.png" /></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>you might run in to the issue that it isnt uploading, that means you need to adjust the streamsize in here to 10GB or 100GB (if it is bigger the 1GB):
+<div class="language-text highlight"><span class="filename">location of config.json</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo nano /var/opt/minecraft/crafty/crafty-4/app/config/config.json
+</span></code></pre></div></p>
+</div>
+<p><img alt="Alt text" src="../../images/screengrabs/change_to_100GB.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>when it autorefreshed and for that matter uploaded, Rightclick to extract</p>
+</li>
+<li>
+<p>Adjust the <code>server.properties</code>, <code>whitelist.json</code> and <code>ops.json</code> (or do it ingame afterwords)</p>
+<ul>
+<li>my default <a href="../server.properties">server.properties</a></li>
 </ul>
 </li>
 <li>
 <p>Adjust the <code>configs</code> with the right <code>IP</code>, <code>Port</code> and the <code>Autostart</code>, <code>Crash Detection</code> and <code>Show on Public Status Page</code> Toggle</p>
 <ul>
-<li><img alt="crafty_mc_server_config.png" src="/crafty_mc_server_config.png" /></li>
+<li><img alt="Alt text" src="../../images/screengrabs/mc_server_config.png" /></li>
 </ul>
 </li>
 <li>Go to Backups and set, how the Server gets backed up and how many Backups it keeps<ul>
-<li><img alt="mc_server_backup_settings.png" src="/mc_server_backup_settings.png" /></li>
+<li><img alt="mc_server_backup_settings.png" src="../../images/screengrabs/mc_server_backup_settings.png" /></li>
 </ul>
 </li>
 <li>and then Sheduale a Backup (i also added some Warning Messages before)</li>
-<li><img alt="schedule_mc_server_backup.png" src="/schedule_mc_server_backup.png" /></li>
+<li><img alt="schedule_mc_server_backup.png" src="../../images/screengrabs/schedule_mc_server_backup.png" /></li>
 <li>Now go to the Terminal in Crafty Control and Start the Server</li>
 </ul>
 

@@ -59,7 +59,7 @@
   	* Basically it is this
     	* Create a Forge Server
       * Fill out all the necessary details
-      * ![Alt text](../images/screengrabs/mc_server_create_new_server.png)
+      * ![mc_server_create_new_server.png](../images/screengrabs/mc_server_create_new_server.png)
       	- [x] Modded
         - [x] forge
         - [x] Server Version (Check the one needed from you [Modpack](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4))
@@ -67,25 +67,29 @@
         - [x] Set the Server Port
         - [x] Build Server!
 		* Download the Modpack you want from [Curse-Forge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortType=2&class=modpacks) make sure download the `Server Pack`, not the regular one
-			* ![Alt text](../images/screengrabs/download_serverpack.png)
+			* ![download_serverpack.png](../images/screengrabs/download_serverpack.png)
     * Upload the ZIP File
-    	* ![upload_zip.png](/upload_zip.png)
-> you might run in to the issue that it isnt uploading, that means you need to adjust the streamsize in here to 10GB or 100GB (if it is bigger the 1GB): 
-{.is-warning}
+    	* ![mc_server_upload_zip.png](../images/screengrabs/mc_server_upload_zip.png)
 
-```
-sudo nano /var/opt/minecraft/crafty/crafty-4/app/config/config.json
-```
-![crafty_config.png](/crafty_config.png)
+		!!! tip
+
+			you might run in to the issue that it isnt uploading, that means you need to adjust the streamsize in here to 10GB or 100GB (if it is bigger the 1GB):
+			```title="location of config.json"
+			sudo nano /var/opt/minecraft/crafty/crafty-4/app/config/config.json
+			```
+		![Alt text](../images/screengrabs/change_to_100GB.png)
+
+
+
 
 * when it autorefreshed and for that matter uploaded, Rightclick to extract
-* Adjust the server.properties, whitelist.json and ops.json (or do it ingame afterwords)
-	* my default [server.properties](/home/Minecraft/Server/server)
+* Adjust the `server.properties`, `whitelist.json` and `ops.json` (or do it ingame afterwords)
+	* my default [server.properties](server.properties)
 
 * Adjust the `configs` with the right `IP`, `Port` and the `Autostart`, `Crash Detection` and `Show on Public Status Page` Toggle
-	* ![crafty_mc_server_config.png](/crafty_mc_server_config.png)
+	* ![Alt text](../images/screengrabs/mc_server_config.png)
 * Go to Backups and set, how the Server gets backed up and how many Backups it keeps
-	* ![mc_server_backup_settings.png](/mc_server_backup_settings.png)
+	* ![mc_server_backup_settings.png](../images/screengrabs/mc_server_backup_settings.png)
   * and then Sheduale a Backup (i also added some Warning Messages before)
-  * ![schedule_mc_server_backup.png](/schedule_mc_server_backup.png)
+  * ![schedule_mc_server_backup.png](../images/screengrabs/schedule_mc_server_backup.png)
 * Now go to the Terminal in Crafty Control and Start the Server
