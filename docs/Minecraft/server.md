@@ -59,7 +59,7 @@
   	* Basically it is this
     	* Create a Forge Server
       * Fill out all the necessary details
-      * ![/images/screengrabs/mc_server_create_new_server.png](/images/screengrabs/mc_server_create_new_server.png)
+      * ![Alt text](../images/screengrabs/mc_server_create_new_server.png)
       	- [x] Modded
         - [x] forge
         - [x] Server Version (Check the one needed from you [Modpack](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4))
@@ -67,7 +67,7 @@
         - [x] Set the Server Port
         - [x] Build Server!
 		* Download the Modpack you want from [Curse-Forge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortType=2&class=modpacks) make sure download the `Server Pack`, not the regular one
-			* ![serverfile.png](/serverfile.png)
+			* ![Alt text](../images/screengrabs/download_serverpack.png)
     * Upload the ZIP File
     	* ![upload_zip.png](/upload_zip.png)
 > you might run in to the issue that it isnt uploading, that means you need to adjust the streamsize in here to 10GB or 100GB (if it is bigger the 1GB): 
