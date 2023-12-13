@@ -11,29 +11,30 @@
 * #### Automated Install Script (Quick)
 
 	Please ensure your distro's packages are up-to-date and Git is present before installing Crafty:
-	````
+	
+	````yaml
 	sudo apt update && sudo apt upgrade && sudo apt install git
 	````
 
 	One line installer
 
-	```git
-	git clone https://gitlab.com/crafty-controller/crafty-installer-4.0.git && \ 
-	cd crafty-installer-4.0 && \ 
-	sudo ./install_crafty.sh
-	```
+    ```yaml
+    git clone https://gitlab.com/crafty-controller/crafty-installer-4.0.git && \ 
+    cd crafty-installer-4.0 && \ 
+    sudo ./install_crafty.sh
+```
 
 	Once installation is complete to run Crafty manually run the following. Note that if you used a directory other then the default to install Crafty you will need to cd into that directory.
 
-	````
+	````yaml
 	sudo su crafty
 	````
 
-	````
+	````yaml
 	cd /var/opt/minecraft/crafty
 	````
 
-	````
+	````yaml
 	./run_crafty.sh
 	````
 
@@ -133,11 +134,11 @@
 	Use the `Edit zone DNS` template to create and copy a token into the environment file.  
 	(The less secure API key authentication is deliberately not supported.)
 	2. Example:  
-	```
+	```yaml
 	yourdomain.com, *.yourdomain.com`   
 	```
 	or in the .env file  
-	```
+	```yaml
 	DOMAINS=yourdomain.com, *.yourdomain.com
 	```
 
