@@ -154,7 +154,7 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: true
+#      clickable_checkbox: true # Resets on every Page load, so it is useless for me
   - pymdownx.tilde
 
 #############################################################################################################################################
