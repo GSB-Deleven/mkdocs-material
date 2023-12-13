@@ -1,3 +1,4 @@
+icon: simple/docker
 # Docker
 show logs in terminal of the Docker conatiner
 ```

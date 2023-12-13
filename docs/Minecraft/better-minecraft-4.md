@@ -1,3 +1,4 @@
+icon: material/minecraft
 # ToDo
 - [ ] Bamboo- or Kelpfarm for smelting
 - [ ] Bonemeal Composter for rotten food and Seeds

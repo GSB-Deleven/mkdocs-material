@@ -1,3 +1,4 @@
+icon: material/server
 # Server Setup
 
 ## Install and Setup Proxmox LXC and Crafty Controller 4

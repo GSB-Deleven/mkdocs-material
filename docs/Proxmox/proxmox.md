@@ -1,3 +1,4 @@
+icon: simple/proxmox
 ## Proxmox Helper Scripts
 [![image](https://github.com/GSB-Deleven/HomeLab/assets/35196079/8276e582-e2cf-4dc7-9313-06dc8e1729d4)](https://tteck.github.io/Proxmox/)
   

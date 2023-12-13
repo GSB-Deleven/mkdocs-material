@@ -1,3 +1,4 @@
+icon: simple/portainer
 # Use one .env file and Link to it
 
 its very simple just do it like this

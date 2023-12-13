@@ -1,3 +1,4 @@
+icon: simple/materialformkdocs
 # MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).

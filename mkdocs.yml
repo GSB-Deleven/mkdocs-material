@@ -66,7 +66,7 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: logo
+    logo: fontawesome/solid/microscope
 #  logo: assets/logo.png
 
 #############################################################################################################################################
@@ -99,7 +99,8 @@ extra:
       link: https://github.com/GSB-Deleven
     - icon: simple/materialformkdocs
       link: https://squidfunk.github.io/mkdocs-material/getting-started/
-
+extra_css:
+  - stylesheets/extra.css
 
 #############################################################################################################################################
 # Markdown Extensions
@@ -163,18 +164,19 @@ markdown_extensions:
 nav:
   - Home: # Top Navigation
       - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
-  - Website Stuff : 
-      - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
-#      - Hugo: Hugo.md
-  - Proxmox:
-      - Proxmox: Proxmox/proxmox.md
-  - Docker:
-      - Docker/Docker.md
-      - Portainer: Docker/Portainer/portainer.md
-  - Minecraft:
-    - Server Setup: Minecraft/server-setup.md
-    - Better Minecraft 4: Minecraft/better-minecraft-4.md
-  - Tools:
-    - Tools/tools.md
+  - Knowledge Base:
+    - Website Stuff : 
+        - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
+  #      - Hugo: Hugo.md
+    - Proxmox:
+        - Proxmox: Proxmox/proxmox.md
+    - Docker:
+        - Docker/Docker.md
+        - Portainer: Docker/Portainer/portainer.md
+    - Minecraft:
+      - Server Setup: Minecraft/server-setup.md
+      - Better Minecraft 4: Minecraft/better-minecraft-4.md
+    - Tools:
+      - Tools/tools.md
   - Blog:
     - blog/index.md
