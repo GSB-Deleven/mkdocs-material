@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://deleven.net/scripts-and-snippets/neofetch/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://deleven.net/blog/archive/2023/</loc>
          <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>

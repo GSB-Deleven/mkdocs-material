@@ -65,28 +65,12 @@ sudo apt install nala
 #### neofetch
   * Shows your Systeminfo
 ??? abstract "Explanation"
-    * See config here: [config.conf](https://github.com/GSB-Deleven/HomeLab/blob/429b4a9c5fb366ef10b661b865fa99e16d729e4f/Terminal%20configs/neofetch/config.conf)
-    * My [.bashrc](https://github.com/GSB-Deleven/HomeLab/blob/429b4a9c5fb366ef10b661b865fa99e16d729e4f/Terminal%20configs/.bashrc)  runs this on every startup
+    * See config here: [config.conf](https://github.com/GSB-Deleven/mkdocs-material/blob/0b45d6baf28cf150ab4ad99ee6ab3b6e056b1228/docs/scripts-and-snippets/neofetch/config.conf)
+      * [README.md](https://github.com/GSB-Deleven/mkdocs-material/tree/0b45d6baf28cf150ab4ad99ee6ab3b6e056b1228/docs/scripts-and-snippets/neofetch) 
+    * My [.bashrc](https://github.com/GSB-Deleven/mkdocs-material/blob/0b45d6baf28cf150ab4ad99ee6ab3b6e056b1228/docs/scripts-and-snippets/bashrc/.bashrc)  runs this on every startup
 ---
 
 ### Docker Containers
+
 * for the compose files see: [stacks](https://github.com/GSB-Deleven/HomeLab/tree/429b4a9c5fb366ef10b661b865fa99e16d729e4f/stacks)
-<table>
-    <tr>
-        <th>Logo</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Install Method</th>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/louislam/dockge/master/frontend/public/icon.svg" target="_blank"></td>
-        <td><a href="https://github.com/louislam/dockge" target="_blank">Dockge</a></td>
-        <td>Docker Compose Management</td>
-        <td><a href="https://tteck.github.io/Proxmox/" target="_blank">Proxmox LXC via Helper Script</a></td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://wiki.casaos.io/_assets/casaos-no-text.svg" target="_blank"></td>
-        <td><a href="https://casaos.io/" target="_blank">CasaOS</a></td>
-        <td>Manages also Docker Containers and has great <a href="https://awesome.casaos.io/content/3rd-party-app-stores/list.html" target="_blank">Custom Appstores</a></td>
-        <td><a href="https://casaos.io/" target="_blank">CasaOS Install Script</a></td>
-    </tr>
+
