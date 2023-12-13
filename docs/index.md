@@ -5,10 +5,7 @@ icon: material/home
 Most of the inspiration comes from this guys here:  
 
   - [Awesome-Selfhosted Website](https://awesome-selfhosted.net/)  
-  [![Alt text](images/screengrabs/awsome_selfhosted_website.png)](https://awesome-selfhosted.net/)  
-
   - [Awesome-Selfhosted GitHub](https://github.com/sindresorhus/awesome)  
-  [![Alt text](images/screengrabs/awsome_selfhosted_github.png)](https://github.com/sindresorhus/awesome)
 
 ## :fontawesome-solid-computer: Systems and other Hardware
 I will List my Hardware here
