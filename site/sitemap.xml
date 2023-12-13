@@ -16,6 +16,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://deleven.net/Home/todo/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Home/tools/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://deleven.net/Minecraft/better-minecraft-4/</loc>
          <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
@@ -27,11 +37,6 @@
     </url>
     <url>
          <loc>https://deleven.net/Proxmox/proxmox/</loc>
-         <lastmod>2023-12-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://deleven.net/Tools/tools/</loc>
          <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
