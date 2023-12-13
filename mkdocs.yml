@@ -165,6 +165,8 @@ nav:
   - Knowledge Base:
     - Home: # Top Navigation
         - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
+        - ToDo: Home/todo.md
+        - Tools: Home/tools.md
     - Website Stuff : 
         - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
 #        - Hugo: Hugo.md
@@ -176,7 +178,5 @@ nav:
     - Minecraft:
       - Server Setup: Minecraft/server-setup.md
       - Better Minecraft 4: Minecraft/better-minecraft-4.md
-    - Tools:
-      - Tools/tools.md
   - Blog:
     - blog/index.md
