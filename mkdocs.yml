@@ -1,11 +1,12 @@
 site_name: Delevens HomeLab 
 site_url: https://deleven.net/
-site_author: Delevens
+site_author: Deleven
 site_description: >-
   My HomeLab Documentation
 
 repo_name: GSB-Deleven/mkdocs-material
 repo_url: https://github.com/GSB-Deleven/mkdocs-material
+edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2023 - 2023 Deleven
 
@@ -153,6 +154,7 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
+ #     clickable_checkbox: true
   - pymdownx.tilde
 
 #############################################################################################################################################
