@@ -162,12 +162,12 @@ markdown_extensions:
 # Page tree / Navigation
 #############################################################################################################################################
 nav:
-  - Home: # Top Navigation
-      - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
   - Knowledge Base:
+    - Home: # Top Navigation
+        - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
     - Website Stuff : 
         - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
-  #      - Hugo: Hugo.md
+#        - Hugo: Hugo.md
     - Proxmox:
         - Proxmox: Proxmox/proxmox.md
     - Docker:

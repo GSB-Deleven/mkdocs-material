@@ -1,3 +1,4 @@
+icon: material/home
 # My HomeLab
 
 ## ToDo
