@@ -2,17 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://deleven.net/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/todo/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Docker/Docker/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Docker/Portainer/portainer/</loc>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/server/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Proxmox/proxmox/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Tools/tools/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Website%20Stuff/MkDocs/mkdocs/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/blog/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/blog/2023/12/13/just-a-test-blogpost/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/blog/archive/2023/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/blog/category/blog/</loc>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -51,10 +51,11 @@
 
 
 3. now you should be able to access the Crafty Controller via `https://YOUR_SERVER_IP:8443`
-> Username: `admin`
-> Password: `crafty`
-> 
-{.is-info}
+
+	!!! example "Default Login"
+		Username: `admin`  
+		Password: `crafty`
+
 
 ## Create your Servers in Crafty Controller 4
 

@@ -7,14 +7,16 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 * [Admonition Types (Tips, Warnings, etc)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
 
 
-## Edit Page
+## Edit Website
 
-1. Edit Page in :material-microsoft-visual-studio-code: VS CODE
-
-!!! tip
+1. Open Website in :material-microsoft-visual-studio-code: VS CODE
+??? tip "Tip: Open VSCode via GitHub Desktop"
     I usually access it via :simple-github: GitHub Desktop
 
-2. Preview on http://localhost:8000/
+    ![Alt text](../../images/screengrabs/open_vscode_in_github_desktop.png)
+
+2. Preview on http://localhost:8000/ (Just type the following commands in the Terminal in VS Code)
+
 
     ```title="Command"
     mkdocs serve
