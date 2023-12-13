@@ -4,8 +4,8 @@ site_author: Delevens
 site_description: >-
   My HomeLab Documentation
 
-# repo_name: squidfunk/mkdocs-material
-# repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: GSB-Deleven/mkdocs-material
+repo_url: https://github.com/GSB-Deleven/mkdocs-material
 
 copyright: Copyright &copy; 2023 - 2023 Deleven
 
@@ -88,15 +88,15 @@ extra:
 #    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://github.com/GSB-Deleven
+    - icon: simple/materialformkdocs
+      link: https://squidfunk.github.io/mkdocs-material/getting-started/
+#     - icon: fontawesome/brands/python
+#       link: https://pypi.org/project/mkdocs-material/
+#     - icon: fontawesome/brands/mastodon
+#       link: https://fosstodon.org/@squidfunk
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/squidfunkhttps://github.com/squidfunk/mkdocs-material
 
 # Extensions
 markdown_extensions:
@@ -150,8 +150,12 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
-  - ToDo: todo.md
+  - Home: 
+      - index.md
+      - ToDo: todo.md
+  - Website Stuff : 
+      - MkDoks: Website Stuff/MkDocs/mkdocs.md
+      - Hugo: placeholder.md
   - MineCraft:
     - Server: Minecraft/server.md
 #     - Creating your site: creating-your-site.md
