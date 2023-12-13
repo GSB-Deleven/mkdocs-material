@@ -101,7 +101,7 @@ extra:
 
 
 #############################################################################################################################################
-# Extensions
+# Markdown Extensions
 #############################################################################################################################################
 markdown_extensions:
   - abbr
@@ -135,6 +135,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
+      base_path:
+        - docs
+        - docs/Minecraft
       auto_append:
         - includes/mkdocs.md
   - pymdownx.superfences:
@@ -168,7 +171,8 @@ nav:
       - Docker/Docker.md
       - Portainer: Docker/Portainer/portainer.md
   - Minecraft:
-    - Server: Minecraft/server.md
+    - Server Setup: Minecraft/server-setup.md
+    - Better Minecraft 4: Minecraft/better-minecraft-4.md
   - Tools:
     - Tools/tools.md
   - Blog:

@@ -1,8 +1,8 @@
-# Server
+# Server Setup
 
 ## Install and Setup Proxmox LXC and Crafty Controller 4
 
-1. My Server runs on a [Proxmox Ubuntu LXC Container](/home/Proxmox)
+1. My Server runs on a [Proxmox Ubuntu LXC Container](../Proxmox/proxmox.md)
 
 2. Install Crafty Controller 4 According to [the official Guide](https://docs.craftycontrol.com/pages/getting-started/installation/linux/)
 
@@ -88,7 +88,11 @@
 
 * when it autorefreshed and for that matter uploaded, Rightclick to extract
 * Adjust the `server.properties`, `whitelist.json` and `ops.json` (or do it ingame afterwords)
-	* my default [server.properties](https://github.com/GSB-Deleven/mkdocs-material/blob/f553e9ed95267758aae6566f9ce995e04a6e18e0/docs/Minecraft/server.properties)
+	* my default [server.properties (:simple-github: Link)](https://github.com/GSB-Deleven/mkdocs-material/blob/f553e9ed95267758aae6566f9ce995e04a6e18e0/docs/Minecraft/server.properties) are
+
+```properties title="server.properties" linenums="1" hl_lines="7 14 18 25 26 32 36 47 48 53 57 58"
+--8<-- "server.properties"
+```
 
 * Adjust the `configs` with the right `IP`, `Port` and the `Autostart`, `Crash Detection` and `Show on Public Status Page` Toggle
 	* ![Alt text](../images/screengrabs/mc_server_config.png)
@@ -97,3 +101,50 @@
   * and then Sheduale a Backup (i also added some Warning Messages before)
   * ![schedule_mc_server_backup.png](../images/screengrabs/schedule_mc_server_backup.png)
 * Now go to the Terminal in Crafty Control and Start the Server
+
+## Make Server Accessible from outside
+
+* [Cloudflare DDNS Updater](https://github.com/favonia/cloudflare-ddns) (Docker)
+	```yaml title="My current docker-compose.yaml"
+	version: "3"
+	services:
+	cloudflare-ddns-updater:
+		image: favonia/cloudflare-ddns:latest
+		network_mode: host
+		cap_add:
+		- SETUID # Leave this alone, as is
+		- SETGID # Leave this alone, as is
+		cap_drop:
+		- all
+		read_only: true
+		security_opt:
+		- no-new-privileges:true
+		environment:
+		- PUID=1000
+		- PGID=1000
+		- CF_API_TOKEN=${CF_API_TOKEN} # (1)!
+		- DOMAINS=${DOMAINS} # (2)!
+		- PROXIED=true
+		- IP6_PROVIDER=none
+		restart: unless-stopped
+	```
+
+	1. The value of `CF_API_TOKEN` should be an API token (not an API key), which can be obtained from the [API Tokens page](https://dash.cloudflare.com/profile/api-tokens).  
+	Use the `Edit zone DNS` template to create and copy a token into the environment file.  
+	(The less secure API key authentication is deliberately not supported.)
+	2. Example:  
+	```
+	yourdomain.com, *.yourdomain.com`   
+	```
+	or in the .env file  
+	```
+	DOMAINS=yourdomain.com, *.yourdomain.com
+	```
+
+* This will then create the `A-Record` for you and keeps it up to date
+	![Alt text](../images/screengrabs/bmc_A_record.png)
+
+* `CNAME` bmc (Proxied)
+	![Alt text](../images/screengrabs/bmc_cname_record.png)
+* `SRV` 
+	![Alt text](../images/screengrabs/bmc_srv_record.png)

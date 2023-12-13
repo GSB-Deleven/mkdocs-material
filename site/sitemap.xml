@@ -21,7 +21,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/Minecraft/server/</loc>
+         <loc>https://deleven.net/Minecraft/better-minecraft-4/</loc>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Minecraft/server-setup/</loc>
          <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
