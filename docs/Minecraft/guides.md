@@ -22,6 +22,8 @@ icon: octicons/book-16
 
 ### Usefull commands
 
+#### [icon List](https://github.com/webbukkit/dynmap/wiki/Using-markers)
+
 #### Rendering
 
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
