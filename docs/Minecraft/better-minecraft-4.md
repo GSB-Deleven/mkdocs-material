@@ -1,25 +1,28 @@
 icon: material/minecraft
-# General Info
+# Better Minecraft 4
 
-## Modpack: 
+## General Info
+
+### Modpack 
 [Better Minecraft 4 [FORGE]](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)  
 [![Alt text](../images/BetterMinecraft4_Logo.jpg)](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)
 
 
 
 
-## Server Map
+### [Server Map](https://map.deleven.net/) 
+map.deleven.net
 
 <div class="map">
   <iframe height="800" width="100%" src="https://map.deleven.net/"></iframe>
 </div>
 
-### Seed
+#### Seed
 ```
 393358025
 ```
 
-# ToDo
+### ToDo
 - [ ] Find Stronghold (Maybe Whitch City?)
 - [ ] [Make a trashcan](https://www.youtube.com/watch?v=LkEwPOo2EFA)
 - [ ] Woodland Massions raids

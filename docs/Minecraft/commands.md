@@ -1,9 +1,10 @@
 icon: octicons/command-palette-16
+# Commands
 
-# Explanation
+## Explanation
 
 
-## Target
+### Target
 
 * `@a` = all players
 * `@e` = all entities

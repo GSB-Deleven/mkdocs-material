@@ -1,5 +1,10 @@
 icon: simple/portainer
-# Use one .env file and Link to it
+# Portainer
+
+## docker compose files / stacks
+Are all [here](https://github.com/GSB-Deleven/mkdocs-material/tree/1b7b01e7732118f7e1bf828b65608ff73c749401/docs/scripts-and-snippets/docker-compose%20files)
+
+## Use one .env file and Link to it
 
 its very simple just do it like this
 
@@ -27,7 +32,7 @@ DB_PASSWORD=KJBIWUJBdwihdbuazowdgh786287z9bidjhqb8hq27hp298h28d
     Like this you can create one big `.env` file, save it somewhere accesible (in my case the folder where I keep all my docker stuff) and then you can link all your containers to it
 
 
-# Update Portainer Community Edition
+## Update Portainer Community Edition
 Stop and remove your existing Portainer instance. This will not affect your other Docker containers.
 
 ```
