@@ -77,6 +77,11 @@ icon: octicons/book-16
 
 1. adds a new marker at the given location, with the given ID, the given label and optional icon and optional marker set
 
+
+```yaml title="Example"
+/dmarker add Witch_City icon:skull x:-1658 y:64 z:-1677 world:world
+```
+
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
 
 ```yaml title="move Marker"
