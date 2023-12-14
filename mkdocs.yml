@@ -64,7 +64,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: images/favicon.ico
   icon:
     logo: fontawesome/solid/microscope
 #  logo: assets/logo.png
