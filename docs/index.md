@@ -83,7 +83,6 @@ instead of
 for the compose files see: [docker-compose files](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/scripts-and-snippets/docker-compose%20files) in the [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/scripts-and-snippets/docker-compose%20files)
 
 | Name              | Description                            | Location                                                                                                                                                    |
-| ----------------- | -------------------------------------- | -----                  ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :---------------- | :------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `arr-stack.yml`   | :pirate_flag: downloading and stuff... | [HomeLab/stacks/arr-stack/compose.yaml](https://github.com/GSB-Deleven/HomeLab/blob/429b4a9c5fb366ef10b661b865fa99e16d729e4f/stacks/arr-stack/compose.yaml) |
 | `placeholder.yml` | :material-pirate: placeholder          | [placeholder](https://github.com/GSB-Deleven/HomeLab/blob/429b4a9c5fb366ef10b661b865fa99e16d729e4f/stacks/arr-stack/compose.yaml)                           |
-|                   |

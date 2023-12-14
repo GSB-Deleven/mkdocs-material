@@ -1,4 +1,4 @@
-site_name: Delevens HomeLab 
+site_name: Delevens HomeLab
 site_url: https://deleven.net/
 site_author: Deleven
 site_description: >-
@@ -91,9 +91,9 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
-#  analytics:
-#    provider: google
-#    property: !ENV GOOGLE_ANALYTICS_KEY
+  #  analytics:
+  #    provider: google
+  #    property: !ENV GOOGLE_ANALYTICS_KEY
   social: # Social icons in Footer
     - icon: fontawesome/brands/github
       link: https://github.com/GSB-Deleven
@@ -155,7 +155,7 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
-#      clickable_checkbox: true # Resets on every Page load, so it is useless for me
+  #      clickable_checkbox: true # Resets on every Page load, so it is useless for me
   - pymdownx.tilde
 
 #############################################################################################################################################
@@ -163,20 +163,22 @@ markdown_extensions:
 #############################################################################################################################################
 nav:
   - Knowledge Base:
-    - Home: # Top Navigation
-        - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
-        - ToDo: Home/todo.md
-        - Tools: Home/tools.md
-    - Website Stuff : 
-        - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
-#        - Hugo: Hugo.md
-    - Proxmox:
-        - Proxmox: Proxmox/proxmox.md
-    - Docker:
-        - Docker/Docker.md
-        - Portainer: Docker/Portainer/portainer.md
-    - Minecraft:
-      - Server Setup: Minecraft/server-setup.md
-      - Better Minecraft 4: Minecraft/better-minecraft-4.md
+      - Home: # Top Navigation
+          - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
+          - ToDo: Home/todo.md
+          - Tools: Home/tools.md
+      - Website Stuff:
+          - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
+      #        - Hugo: Hugo.md
+      - Proxmox:
+          - Proxmox: Proxmox/proxmox.md
+      - Docker:
+          - Docker/Docker.md
+          - Portainer: Docker/Portainer/portainer.md
+      - Minecraft:
+          - Commands: Minecraft/commands.md
+          - Guides: Minecraft/guides.md
+          - Server Setup: Minecraft/server-setup.md
+          - Better Minecraft 4: Minecraft/better-minecraft-4.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
