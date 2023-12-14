@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dynmap" class="md-skip">
+        <a href="#guides" class="md-skip">
           Skip to content
         </a>
       
@@ -844,6 +844,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -855,6 +868,73 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dynmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynmap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usefull-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usefull commands
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usefull commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1159,6 +1239,62 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dynmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynmap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usefull-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usefull commands
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usefull commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1188,20 +1324,81 @@
   
 
 
-<h1 id="dynmap">Dynmap<a class="headerlink" href="#dynmap" title="Permanent link">&para;</a></h1>
+<h1 id="guides">Guides<a class="headerlink" href="#guides" title="Permanent link">&para;</a></h1>
+<h2 id="dynmap">Dynmap<a class="headerlink" href="#dynmap" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Get in from <a href="https://www.curseforge.com/minecraft/mc-mods/dynmapforge">here</a></li>
 <li>Add the downloaded <code>.jar</code> to the <code>mods</code> folder</li>
 <li>Restart the Server</li>
-<li>run<br />
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/dynmap fullrender
-</span></code></pre></div></li>
-<li>wait for it to have your world rendered</li>
+<li>
+<p>run<br />
+    <div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/dynmap<span class="w"> </span>fullrender<span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div></p>
+<ol>
+<li>All commands can be found <a href="https://github.com/webbukkit/dynmap/wiki/Commands">here</a></li>
+</ol>
+</li>
+<li>
+<p>wait for it to have your world rendered</p>
+</li>
 <li>You can acess it via <a href="https://map.deleven.net">http://your_server_ip:8123</a></li>
 </ul>
 <div class="map">
   <iframe height="800" width="100%" src="https://map.deleven.net/"></iframe>
 </div>
+
+<h3 id="usefull-commands">Usefull commands<a class="headerlink" href="#usefull-commands" title="Permanent link">&para;</a></h3>
+<h4 id="rendering">Rendering<a class="headerlink" href="#rendering" title="Permanent link">&para;</a></h4>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">pause dynmap</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="l l-Scalar l-Scalar-Plain">/dynmap pause all</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>pause all map rendering (updates and full/radius renders)</li>
+</ol>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">resume all map rendering</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="l l-Scalar l-Scalar-Plain">/dynmap pause none</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>resume all map rendering</li>
+</ol>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">toggle render messages</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="l l-Scalar l-Scalar-Plain">/dynmap quiet</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>toggle render messages</li>
+</ol>
+<h4 id="markers">Markers<a class="headerlink" href="#markers" title="Permanent link">&para;</a></h4>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">adds Marker to current position</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="l l-Scalar l-Scalar-Plain">/dmarker add &lt;label&gt; icon:&lt;icon&gt; set:&lt;set-id&gt;</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>adds a new marker at the player's current location, with a given label and optional icon and optional marker set</li>
+</ol>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">adds Marker with Label to given location</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="l l-Scalar l-Scalar-Plain">/dmarker add id:&lt;id&gt; &lt;label&gt; icon:&lt;icon&gt; set:&lt;set-id&gt; x:&lt;x-coord&gt; y:&lt;y-coord&gt; z:&lt;z-coord&gt; world:&lt;Worldname&gt;</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>adds a new marker at the given location, with the given ID, the given label and optional icon and optional marker set</li>
+</ol>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">move Marker</span><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="l l-Scalar l-Scalar-Plain">/dmarker movehere &lt;label&gt;</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>updates the location of the first marker matching the given label to match the current player's position</li>
+</ol>
+<!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
+<div class="language-yaml highlight"><span class="filename">delete Marker</span><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="l l-Scalar l-Scalar-Plain">/dmarker delete &lt;label&gt;</span><span class="w"> </span><span class="c1">#(1)!</span>
+</span></code></pre></div>
+<ol>
+<li>deletes the first marker matching the given label</li>
+</ol>
 
 
 
