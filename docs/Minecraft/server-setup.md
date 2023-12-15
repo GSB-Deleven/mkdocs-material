@@ -86,6 +86,24 @@ icon: material/server
 		![Alt text](../images/screengrabs/change_to_100GB.png)
 
 
+		!!! danger "If it didn't work"
+
+			If this didn't worked you can also use [WinSCP](https://winscp.net/eng/download.php).  
+			  
+			For this to work, you need to be able to login as `crafty` user, **otherwise the permissions don't work**  
+			  
+			Login via SSH as `root`, then type:
+			```
+				sudo passwd crafty
+			```
+			set a new password and use this to login to WinSCP
+			  
+			![Alt text](../images/screengrabs/crafty_winscp.png)
+			  
+			After this, you can just add the ==unzipped== files from the downloaded server `.zip` file to the server directly  
+			(not the .zip folder, just the files in the folder)  
+			If it askes you if it should override the data, you can say `yes`
+
 
 
     * when it autorefreshed and for that matter uploaded, Rightclick to extract
