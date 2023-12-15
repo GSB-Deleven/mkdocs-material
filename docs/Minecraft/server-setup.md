@@ -1,11 +1,11 @@
 icon: material/server
 # Server Setup
 
-## Install and Setup Proxmox LXC and Crafty Controller 4
+## Install and Setup Crafty Controller 4 (on Proxmox LXC)
 
 1. My Server runs on a [Proxmox Ubuntu LXC Container](../Proxmox/proxmox.md)
 
-2. Install **[Crafty Controller 4](https://docs.craftycontrol.com/)** According to [the official Guide](https://docs.craftycontrol.com/pages/getting-started/installation/linux/)
+2. Install **[Crafty Controller 4](https://docs.craftycontrol.com/)** according to [the official Guide](https://docs.craftycontrol.com/pages/getting-started/installation/linux/)
 
 ### Here is the TLDR Version of this Guide
 
