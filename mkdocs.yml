@@ -173,9 +173,7 @@ nav:
       - Proxmox:
           - Proxmox: Proxmox/proxmox.md
       - Docker:
-          - Docker/Docker.md
-          - Portainer: Docker/Portainer/portainer.md
-      - Minecraft:
+          - Docker/Docker.md 
           - Commands: Minecraft/commands.md
           - Guides: Minecraft/guides.md
           - Server Setup: Minecraft/server-setup.md
