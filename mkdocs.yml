@@ -168,7 +168,7 @@ nav:
           - ToDo: Home/todo.md
           - Tools: Home/tools.md
       - Website Stuff:
-          - MkDoks: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
+          - Material for MkDocs: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
       #        - Hugo: Hugo.md
       - Proxmox:
           - Proxmox: Proxmox/proxmox.md
