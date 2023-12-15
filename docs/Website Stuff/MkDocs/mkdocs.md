@@ -10,10 +10,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 
 ## Edit Website
 
-### in :simple-github: GitHub
+### in **:simple-github: GitHub**
 !!! info
 
-    You can also edit the page directly on github. Cloudflare Pages will update the Live Page after you commit the Changes
+    You can also edit the page directly on **:simple-github: GitHub**. 
+    Cloudflare Pages will update the Live Page after you commit the Changes
 
 ---
 
