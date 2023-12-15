@@ -21,40 +21,42 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 
 1. Open Website in :material-microsoft-visual-studio-code: VS CODE
 
-!!! example "Open VSCode via Terminal"
-    * Open Terminal
-    * Navigate to you Site
+    !!! example "Open VSCode via Terminal"
+        * Open Terminal
+        * Navigate to you Site
+            
+            ```yaml
+            cd X:\OneDrive\Documents\GitHub\mkdocs-material # (1)!
+            ```
         
-        ```yaml
-        cd X:\OneDrive\Documents\GitHub\mkdocs-material # (1)!
-        ```
-       
-        1. Example
+            1. Example
 
-        open :simple-visualstudiocode: VS Code on this location with 
-        
+            open :simple-visualstudiocode: VS Code on this location with 
+            
 
-        ```yaml
-        code . # (1)!
-        ```
+            ```yaml
+            code . # (1)!
+            ```
 
-        1. minde the ++space++ between `code` and `.`
+            1. minde the ++space++ between `code` and `.`
 
 
-!!! tip "Open VSCode via GitHub Desktop"
-    I usually access it via :simple-github: GitHub Desktop
+    !!! tip "Open VSCode via GitHub Desktop"
+        I usually access it via :simple-github: GitHub Desktop
 
-    ![Alt text](../../images/screengrabs/open_vscode_in_github_desktop.png)
-
-
-2. Preview on http://localhost:8000/ (Just type the following commands in the Terminal in VS Code)
+        ![Alt text](../../images/screengrabs/open_vscode_in_github_desktop.png)
 
 
-    ```title="Command"
+
+2.  Preview on http://localhost:8000/  
+(Just type the following commands in the Terminal in VS Code)
+
+
+    ```YAML title="Command"
     mkdocs serve
     ```
 
-    ```shell title="Expected Output" hl_lines="1"
+    ```YAML title="Expected Output" hl_lines="1"
     PS X:\OneDrive\Documents\GitHub\mkdocs-material> mkdocs serve # (1)!
     INFO    -  Building documentation...
     INFO    -  Cleaning site directory
@@ -66,17 +68,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 
     1.  This Command will run the live preview on http://localhost:8000/ , you can exit it with ++ctrl+c++ 
 
-3. If you are happy with it ++ctrl+c++ to exit, and run
-    ```title="Command"
-    mkdocs build
-    ```
+  
+  
+3. `Commit & Snyc` to :simple-github: GitHub (Can also be done on GitHub Desktop)
 
-    ```title="Expected Output" hl_lines="1"
-    PS X:\OneDrive\Documents\GitHub\mkdocs-material> mkdocs build
-    INFO    -  Cleaning site directory
-    INFO    -  Building documentation to directory: X:\OneDrive\Documents\GitHub\mkdocs-material\site
-    INFO    -  Documentation built in 0.80 seconds
-    ```
-
-4. `Commit` and `Push/Sync` to :simple-github: GitHub (usually via VSCode or GitHub Desktop)
-
+    ![Alt text](../../images/screengrabs/commit_and_sync_.png)
