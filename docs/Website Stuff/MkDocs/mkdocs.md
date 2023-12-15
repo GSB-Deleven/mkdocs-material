@@ -73,7 +73,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 3. `Commit & Snyc` to [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material) (1)
     { .annotate }
 
-      1. (Can also be done on GitHub Desktop)
+      1. Can also be done on GitHub Desktop
+          
+        `Commit`
+        ![Alt text](../../images/screengrabs/commit_github_desktop.png)
+          
+        `Push`
+        ![Alt text](../../images/screengrabs/push_github_desktop.png)
 
 
     ![Alt text](../../images/screengrabs/commit_and_sync_.png)
