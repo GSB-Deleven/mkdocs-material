@@ -70,6 +70,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material 
 
   
   
-3. `Commit & Snyc` to :simple-github: GitHub (Can also be done on GitHub Desktop)
+3. `Commit & Snyc` to [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material) (1)
+    { .annotate }
+
+      1. (Can also be done on GitHub Desktop)
+
 
     ![Alt text](../../images/screengrabs/commit_and_sync_.png)
