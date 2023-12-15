@@ -173,10 +173,14 @@ nav:
       - Proxmox:
           - Proxmox: Proxmox/proxmox.md
       - Docker:
-          - Docker/Docker.md 
-          - Commands: Minecraft/commands.md
-          - Guides: Minecraft/guides.md
-          - Server Setup: Minecraft/server-setup.md
-          - Better Minecraft 4: Minecraft/better-minecraft-4.md
+          - Docker/Docker.md
+          - Portainer: Docker/Portainer/portainer.md
+      - Home Assistant: 
+          - HomeAssistant/HomeAssistant.md
+  - Minecraft:
+      - Commands: Minecraft/commands.md
+      - Guides: Minecraft/guides.md
+      - Server Setup: Minecraft/server-setup.md
+      - Better Minecraft 4: Minecraft/better-minecraft-4.md
   - Blog:
       - blog/index.md
