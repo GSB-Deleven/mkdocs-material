@@ -3,13 +3,14 @@
 
 ## Todo:
 
-- [ ] add  
-```sh
-/gamerule sendCommandFeedback false  
-```  
-will affect "whether the feedback from commands executed by a player should show up in chat."
-
-or
-```sh
-/gamerule commandblockoutput false
-```
+- [ ] add the following to the Commands Page
+    ```sh
+    /gamerule sendCommandFeedback false  
+    ```  
+    will affect "whether the feedback from commands executed by a player should show up in chat."
+    
+    or
+    ```sh
+    /gamerule commandblockoutput false
+    ```
+- [ ] move Todo List to here
