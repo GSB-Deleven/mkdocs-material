@@ -3,5 +3,5 @@
 
 Todo:
 
-- [ ] add '/gamerule sendCommandFeedback false'  
+- [ ] add ‘/gamerule sendCommandFeedback false‘  
     will affect "whether the feedback from commands executed by a player should show up in chat."
