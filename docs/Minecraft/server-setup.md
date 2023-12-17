@@ -89,17 +89,13 @@ icon: material/server
 		!!! danger "If it didn't work"
 
 			If this didn't worked you can also use [WinSCP](https://winscp.net/eng/download.php).  
-			  
 			For this to work, you need to be able to login as `crafty` user, **otherwise the permissions don't work**  
-			  
 			Login via SSH as `root`, then type:
 			```
 				sudo passwd crafty
 			```
 			set a new password and use this to login to WinSCP
-			  
 			![Alt text](../images/screengrabs/crafty_winscp.png)
-			  
 			After this, you can just add the ==unzipped== files from the downloaded server `.zip` file to the server directly  
 			(not the .zip folder, just the files in the folder)  
 			If it askes you if it should override the data, you can say `yes`
@@ -130,7 +126,11 @@ icon: material/server
     
 		![schedule_mc_server_backup.png](../images/screengrabs/schedule_mc_server_backup.png)
 
-    * Now go to the Terminal in Crafty Control and Start the Server
+	!!! warning
+		Make sure you have the proper [server.properties (:simple-github: Link)](https://github.com/GSB-Deleven/mkdocs-material/blob/f553e9ed95267758aae6566f9ce995e04a6e18e0/docs/Minecraft/server.properties) added before you start your server.  
+		If the IP in this file *(most of the times it should be `server-ip=192.168.X.X`)* is not set correctly definied, it throws an error and won't start the server.
+
+    * Now go to the Terminal in Crafty Control, add your player to the whitelist with `whitelist add <Playername>` and Start the Server 
 
 ## Make Server Accessible from outside
 
