@@ -2,6 +2,21 @@ icon: material/backup-restore
 
 # Backup Strategy
 
+---
+
+``` mermaid
+graph LR
+  Card[CFexpress/XQD/SD Card] --> Client{Client work?};
+  Client -->|Yes| SSD[SSD];
+  Client -->|No| LrC[Lightroom Classic!];
+  SSD --> LrC
+  LrC <-->|Storage| HDD[HDD] 
+  HDD <-->|Sync| DS920[NAS 1 - DS920 ]
+  DS920 -->|Backup| PR4100[NAS 2 - PR4100]
+```
+
+---
+
 1. `CFexpress/XQD/SD Card ` -> `SSD` (on Site Backup)
 2. Import to `Lightroom Classic` when back, this will add the Pictures to the HDD
 

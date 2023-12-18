@@ -21,38 +21,39 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
+    - content.code.select
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand # When expansion is enabled, the left sidebar will expand all collapsible subsections by default, so the user doesn't have to open subsections manually.
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
+    - navigation.path # When navigation paths are activated, a breadcrumb navigation is rendered above the title of each page, which might make orientation easier for users visiting your documentation on devices with smaller screens
     # - navigation.prune
-    - navigation.sections
+    # - navigation.sections # Both feature flags, navigation.tabs and navigation.sections, can be combined with each other. If both feature flags are enabled, sections are rendered for level 2 navigation items.
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    #- toc.integrate
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/link
+        icon: material/lightbulb
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -67,6 +68,7 @@ theme:
   favicon: images/favicon.ico
   icon:
     logo: fontawesome/solid/microscope
+    repo: fontawesome/brands/github
 #  logo: assets/logo.png
 
 #############################################################################################################################################
@@ -76,7 +78,9 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
+  - git-revision-date-localized # needs to be installed via ----- pip install mkdocs-git-revision-date-localized-plugin ------
+  #- minify:
+  #    minify_html: true
 #############################################################################################################################################
 # Hooks
 #############################################################################################################################################
@@ -163,9 +167,8 @@ markdown_extensions:
 #############################################################################################################################################
 nav:
   - Knowledge Base:
-      - Home: # Top Navigation
+      - HomeLab: # Top Navigation
           - index.md # what is shown when opeing the Top Navigation Section above, here without a Sidebar ently, as i didnt specify a name like "index:"
-          - Tools: Home/tools.md
       - Website Stuff:
           - Material for MkDocs: Website Stuff/MkDocs/mkdocs.md # same as above but with Sidebar entry, as I specified this time "ToDo:"
       #        - Hugo: Hugo.md
@@ -180,6 +183,7 @@ nav:
       - Commands: Minecraft/commands.md
       - Guides: Minecraft/guides.md
       - Server Setup: Minecraft/server-setup.md
+      - All the Mods 9: Minecraft/all-the-mod-9.md
       - Better Minecraft 4: Minecraft/better-minecraft-4.md
   - Photography:
       - Backup Strategy: Photography/Backup_Strategy.md

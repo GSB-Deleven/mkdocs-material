@@ -19,7 +19,7 @@ I will List my Hardware here
 
 Main Server, High Power
 
-![NAB6](images/screengrabs/NAB6_neofetch.png)
+![NAB6](images/screengrabs/neofetch/NAB6_neofetch.png)
 
 ---
 
@@ -27,7 +27,7 @@ Main Server, High Power
 
 Second Server, Low Power
 
-![MacMini](images/screengrabs/MacMini_neofetch.png)
+![MacMini](images/screengrabs/neofetch/MacMini_neofetch.png)
 
 ---
 
@@ -35,7 +35,7 @@ Second Server, Low Power
 
 Pi-Hole and such
 
-![DelevenPi](images/screengrabs/delevenpi_neofetch.png)
+![DelevenPi](images/screengrabs/neofetch/delevenpi_neofetch.png)
 
 ---
 
