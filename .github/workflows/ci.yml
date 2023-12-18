@@ -20,8 +20,10 @@ jobs:
 
     # List of steps to execute
     steps:
-      # Step 1: Check out the repository at the specified version
+      # Step 1: Check out the repository at the specified version and fetch depth
       - uses: actions/checkout@v4
+      - with:
+          fetch-depth: 0
 
       # Step 2: Configure Git credentials for the workflow
       - name: Configure Git Credentials
@@ -29,11 +31,10 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      # Step 3: Set up Python with the specified version and fetch depth
+      # Step 3: Set up Python with the specified version
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-          fetch-depth: 0
 
       # Step 4: Set the cache_id environment variable using the current week number
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
