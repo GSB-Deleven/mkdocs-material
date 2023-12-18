@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2023 - 2023 Deleven
 #############################################################################################################################################
 theme:
   name: material
-  custom_dir: material/overrides
+  # custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -79,8 +79,10 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  #- minify:
-  #    minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+  - minify: # install via --------    pip install mkdocs-minify-plugin   -----------
+      minify_html: true
 #############################################################################################################################################
 # Hooks
 #############################################################################################################################################
