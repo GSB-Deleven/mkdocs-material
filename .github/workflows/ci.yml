@@ -22,7 +22,7 @@ jobs:
     steps:
       # Step 1: Check out the repository at the specified version and fetch depth
       - uses: actions/checkout@v4
-      - with:
+        with:
           fetch-depth: 0
 
       # Step 2: Configure Git credentials for the workflow
