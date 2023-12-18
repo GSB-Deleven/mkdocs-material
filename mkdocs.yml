@@ -79,6 +79,8 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
+      minify_html: true
 #  - git-revision-date-localized: # install Guide: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
 #      type: timeago
 #      custom_format: "%d. %B %Y"
@@ -94,8 +96,7 @@ plugins:
 #      repository: GSB-Deleven/mkdocs-material
 #      branch: main
 #   - git-authors:
-   - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
-      minify_html: true
+   
 #############################################################################################################################################
 # Hooks
 #############################################################################################################################################
