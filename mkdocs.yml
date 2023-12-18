@@ -93,9 +93,9 @@ plugins:
 #  - git-committers: # install guide:  https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors
 #      repository: GSB-Deleven/mkdocs-material
 #      branch: main
-  # - git-authors:
-  - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
-      minify_html: true
+#   - git-authors:
+#   - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
+#      minify_html: true
 #############################################################################################################################################
 # Hooks
 #############################################################################################################################################
