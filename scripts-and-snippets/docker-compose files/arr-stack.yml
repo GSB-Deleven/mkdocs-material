@@ -1,0 +1,122 @@
+version: "2.1"
+services:
+  ##########################################################
+  #                    RADARR                              #
+  ########################################################## 
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=${DS920_PUID}
+      - PGID=${DS920_PGID}
+      - UMASK=${DS920_UMASK}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/radarr/config:/config # Radarr configuration directory
+      - ${Docker_Mount}/sabnzbd/downloads/movies:/downloads # Optional movie download directory
+      - ${MediaHUB_Mount}/Movies:/movies # Optional movie storage directory
+    ports:
+      - ${radarr_PORT}:7878 # Radarr web interface port
+    restart: unless-stopped
+    network_mode: bridge
+  ##########################################################
+  #                    SONARR                              #
+  ##########################################################    
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=${DS920_PUID}
+      - PGID=${DS920_PGID}
+      - UMASK=${DS920_UMASK}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/sonarr/config:/config # Sonarr configuration directory
+      - ${Docker_Mount}/sabnzbd/downloads:/downloads # Optional TV show download directory
+      - ${MediaHUB_Mount}/TV:/tv # Optional TV show storage directory
+    ports:
+      - ${sonarr_PORT}:8989 # Sonarr web interface port
+    restart: unless-stopped
+    network_mode: bridge
+  ##########################################################
+  #                   LIDARR                              #
+  ##########################################################
+
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=${DS920_PUID}
+      - PGID=${DS920_PGID}
+      - UMASK=${DS920_UMASK}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/lidarr/config:/config # Lidarr configuration directory
+      - ${Docker_Mount}/sabnzbd/downloads/music:/downloads # Optional music download directory
+      - ${MediaHUB_Mount}/Music:/music # Optional music storage directory
+    ports:
+      - ${lidarr_PORT}:8686 # Lidarr web interface port
+    restart: unless-stopped
+    network_mode: bridge
+  ##########################################################
+  #                   READARR                              #
+  ##########################################################
+
+  readarr:
+    container_name: readarr
+    image: ghcr.io/hotio/readarr
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - ${readarr_PORT}:8787 # Readarr web interface port
+    environment:
+      - PUID=${DS920_PUID}
+      - PGID=${DS920_PGID}
+      - UMASK=${DS920_UMASK}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/readarr/config:/config # Readarr configuration directory
+      - ${Docker_Mount}/readarr/data:/data # Readarr data directory
+      - ${Docker_Mount}/sabnzbd/downloads:/downloads # Optional Readarr download directory
+      - ${Docker_Mount}/sabnzbd/downloads/torrents:/downloads/torrents # SABnzbd torrents directory for Readarr
+      - ${Docker_Mount}/sabnzbd/downloads/books:/downloads/books # Readarr expects this for books
+      - ${Docker_Mount}/sabnzbd/downloads/comics:/downloads/comics # SABnzbd comics directory for Readarr
+      - ${MediaHUB_Mount}/comics:/comics # Optional comics storage directory
+      - ${MediaHUB_Mount}/books:/books # Optional books storage directory
+      - ${MediaHUB_Mount}/podcasts:/podcasts # Optional podcasts storage directory
+      - ${MediaHUB_Mount}/audiobooks:/audiobooks # Optional audiobooks storage directory
+  ##########################################################
+  #                  PROWLARR                              #
+  ##########################################################
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=${DS920_PUID}
+      - PGID=${DS920_PGID}
+      - UMASK=${DS920_UMASK}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/prowlarr/config:/config # Prowlarr configuration directory
+    ports:
+      - ${prowlarr_PORT}:9696 # Prowlarr web interface port
+    restart: unless-stopped
+    network_mode: bridge
+    
+  ##########################################################
+  #               AUDIOBOOK SHELF                          #
+  ##########################################################
+  
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - ${audiobook_shelf_PORT}:80 # Audiobookshelf web interface port
+    volumes:
+      - ${MediaHUB_Mount}/audiobooks:/audiobooks # Audiobookshelf audiobooks directory
+      - ${MediaHUB_Mount}/podcasts:/podcasts # Audiobookshelf podcasts directory
+      - ${Docker_Mount}/audiobookshelf/config:/config # Audiobookshelf configuration directory
+      - ${Docker_Mount}/audiobookshelf/metadata:/metadata # Audiobookshelf metadata directory
+networks: {}
