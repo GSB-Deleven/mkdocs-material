@@ -28,6 +28,6 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
-      - run: pip install mkdocs-git-committers-plugi
+      - run: pip install mkdocs-git-committers-plugin
       - run: echo "docs.deleven.net" > CNAME  # Update this line with the correct path if needed
       - run: mkdocs gh-deploy --force
