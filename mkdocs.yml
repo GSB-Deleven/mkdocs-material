@@ -81,20 +81,20 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
       minify_html: true
-#  - git-revision-date-localized: # install Guide: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
-#      type: timeago
-#      custom_format: "%d. %B %Y"
-#      timezone: Europe/Zurich
-#      locale: en
-#      fallback_to_build_date: false
-#      enable_creation_date: true
-#      exclude:
+  - git-revision-date-localized: # install Guide: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+      type: timeago
+      custom_format: "%d. %B %Y"
+      timezone: Europe/Zurich
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+      exclude:
           # - index.md
-#      enabled: true
-#      strict: true
-#  - git-committers: # install guide:  https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors
-#      repository: GSB-Deleven/mkdocs-material
-#      branch: main
+      enabled: true
+      strict: true
+  - git-committers: # install guide:  https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors
+      repository: GSB-Deleven/mkdocs-material
+      branch: main
 #   - git-authors:
    
 #############################################################################################################################################
