@@ -100,39 +100,67 @@ icon: simple/materialformkdocs
 
 If you add Plugins, you need to add them in the `ci.yml` as well like this:
 
-```yaml linenums="1" hl_lines="30-32"
+```yaml linenums="1" hl_lines="54-56"
+# Set the name of the GitHub Actions workflow
+name: ci
 
-name: ci 
+# Trigger the workflow on pushes to the specified branches
 on:
   push:
     branches:
-      - master 
+      - master
       - main
+
+# Specify permissions for writing contents
 permissions:
   contents: write
+
+# Define the deploy job
 jobs:
   deploy:
+    # Run the job on the latest version of the Ubuntu environment
     runs-on: ubuntu-latest
+
+    # List of steps to execute
     steps:
+      # Step 1: Check out the repository at the specified version and fetch depth
       - uses: actions/checkout@v4
+      - with:
+          fetch-depth: 0
+
+      # Step 2: Configure Git credentials for the workflow
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      # Step 3: Set up Python with the specified version
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-          fetch-depth: 0
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+
+      # Step 4: Set the cache_id environment variable using the current week number
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      # Step 5: Cache the installed dependencies to speed up future builds
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
+
+      # Step 6: Install the MkDocs Material theme
       - run: pip install mkdocs-material
+
+      # Step 7: Install additional MkDocs plugins
       - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-committers-plugin-2
       - run: pip install mkdocs-minify-plugin
+
+      # Step 8: Set the custom domain by creating or overwriting the CNAME file
+      - run: echo "docs.deleven.net" > CNAME
+
+      # Step 9: Deploy the MkDocs site to GitHub Pages, forcing the update
       - run: mkdocs gh-deploy --force
 ```
