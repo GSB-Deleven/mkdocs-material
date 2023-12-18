@@ -15,6 +15,7 @@ copyright: Copyright &copy; 2023 - 2023 Deleven
 #############################################################################################################################################
 theme:
   name: material
+  custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -78,15 +79,12 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - git-revision-date-localized # needs to be installed via ----- pip install mkdocs-git-revision-date-localized-plugin ------
   #- minify:
   #    minify_html: true
 #############################################################################################################################################
 # Hooks
 #############################################################################################################################################
-#hooks:
-#  - material/overrides/hooks/shortcodes.py
-#  - material/overrides/hooks/translations.py
+
 
 #############################################################################################################################################
 # Additional configuration
