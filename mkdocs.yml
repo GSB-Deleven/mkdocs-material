@@ -68,7 +68,7 @@ theme:
     code: Roboto Mono
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/solid/microscope
+    logo: material/skull-scan-outline
     repo: fontawesome/brands/github
 #  logo: assets/logo.png
 
