@@ -15,8 +15,8 @@ icon: simple/materialformkdocs
 ### in **[:simple-github: GitHub](https://github.com/GSB-Deleven/mkdocs-material)**
 !!! info
 
-    You can also edit the page directly on [:simple-github: GitHub](https://github.com/GSB-Deleven/mkdocs-material). 
-    Cloudflare Pages will update the Live Page after you commit the Changes
+    You can also edit the page directly on [:simple-github: GitHub](https://github.com/GSB-Deleven/mkdocs-material).  
+    [**:simple-github: GitHub Actions**](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions) will update the Live Page after you commit the Changes
 
 ---
 
@@ -76,7 +76,7 @@ icon: simple/materialformkdocs
 3. `Commit & Snyc` to [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material) (1)
     { .annotate }
 
-      1. ## Can also be done in :simple-github: GitHub **Desktop**
+      1. **Can also be done in :simple-github: GitHub Desktop**
 
         ---
 
@@ -94,3 +94,45 @@ icon: simple/materialformkdocs
 
 
     ![Alt text](../../images/screengrabs/commit_and_sync_.png)
+
+
+## Plugins
+
+If you add Plugins, you need to add them in the `ci.yml` as well like this:
+
+```yaml linenums="1" hl_lines="30-32"
+
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+          fetch-depth: 0
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
+      - run: pip install mkdocs-minify-plugin
+      - run: mkdocs gh-deploy --force
+```
