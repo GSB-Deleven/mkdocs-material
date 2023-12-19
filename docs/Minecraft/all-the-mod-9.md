@@ -5,32 +5,14 @@ icon: material/minecraft
 
 ### Server
 
-* Give more Forceload Chunks (maybe even some Claim Chunks) to Player:
- * edit `world/ftbchunks` to this
-
-
-``` title="world/ftbchunks/29854e2f-b5aa-4051-b828-b08953e3cb57.snbt" linenums="1" hl_lines="8 9"
-{
-	max_claim_chunks: 500
-	max_force_load_chunks: 25
-	last_login_time: 1702930848679L
-	chunks: { }
-	member_data: {
-		29854e2f-b5aa-4051-b828-b08953e3cb57: {
-			max_force_loaded_chunks: 250
-			max_claimed_chunks: 5000
-			offline_force_loader: 0b
-		}
-	}
-}
-```
-   * https://youtu.be/LMNW23_k020 
-      
-* Make forceload Chunks available offline
-* change `world/serverconfig/ftbchunks-world.snbt` to this
-	* disable_protection: true
- 	* force_load_mode: "always"
-  	* pvp_mode: "never"
+* Give more Forceload Chunks (+ CLaim Chunks) and make forceloaded Chunks available while offline
+    * change `world/serverconfig/ftbchunks-world.snbt` to this
+        * disable_protection: true
+        * force_load_mode: "always"
+        * max_claimed_chunks: 500
+        * max_force_loaded_chunks: 25
+        * pvp_mode: "never"
+  	
 
 
 
@@ -96,13 +78,13 @@ icon: material/minecraft
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 	# Default: 500
 	# Range: -∞ ~ +∞
-	max_claimed_chunks: 500
+	max_claimed_chunks: 5000
 	
 	# Max force loaded chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 	# Default: 25
 	# Range: -∞ ~ +∞
-	max_force_loaded_chunks: 25
+	max_force_loaded_chunks: 250
 	
 	# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 	# Prevents chunks being claimed indefinitely by teams who no longer play.
@@ -159,26 +141,32 @@ icon: material/minecraft
 
 ### General
 
-* use FTB UltiMine Hotkey
-* Create a Backpack and upgrade it asap (Iron/Gold/Diamond/Netherite)
+* use and remat `FTB UltiMine` Hotkey
+* Create a `Backpack` and **upgrade it** asap *(Iron -> Gold -> Diamond -> Netherite)*
 * use commands
     * `/sethome` and `/home`
     * `/rtp` (random teleport)
-* create easy premade `Ironfarm`
-    * and `Woodfarm` (Botany Pots)
+* create easy Farms 
+    * `Ironfarm`
+    * `Woodfarm` (Hopper Botany Pots)
+        * `chunkload` **Farms** so they always work, even while offline if the settings are right
 
 ### Multiplayer
 
-* Join am `team`
+* Join a `team`
 
 ### MineColonies
 
 * Tipps https://youtu.be/v2zLNFeX-X4?si=gCd1woN4cqJ29UBM
 
-* build Supplycamp/Supplyship as starter Base (only needs 5 Chests or 5 Boats)
+* build `Supplycamp/Supplyship` as starter Base (only needs 5 Chests or 5 Boats)
     * it will give you a place to Sleep
     * Starting Material
     * Townhall Block to start the Colony
+* Build the `Townhall`
+* Build the `Builders Hut`
+* Build Storage System
+* Build Farms
 
-* chunkload Farms so they always work (maybe the Colony as well?)
+
 
