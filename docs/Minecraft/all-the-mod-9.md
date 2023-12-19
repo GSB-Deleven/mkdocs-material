@@ -10,6 +10,8 @@ icon: material/minecraft
 * use commands
     * `/sethome` and `/home`
     * `/rtp` (random teleport)
+* create easy premade `Ironfarm`
+    * and `Woodfarm` (Botany Pots)
 
 ### Multiplayer
 
