@@ -163,10 +163,13 @@ icon: material/minecraft
     * it will give you a place to Sleep
     * Starting Material
     * Townhall Block to start the Colony
-* Build the `Townhall`
-* Build the `Builders Hut`
-* Build Storage System
-* Build Farms
+* Build the [`Townhall`](https://wiki.minecolonies.ldtteam.com/source/buildings/townhall)
+* Build the [`Builders Hut`](https://wiki.minecolonies.ldtteam.com/source/buildings/builder)
+* Build `Storage System` and or [`Warehouse`](https://wiki.minecolonies.ldtteam.com/source/buildings/warehouse)
+* Build `Farms` and add Farm buildings like [`Farm`](https://wiki.minecolonies.ldtteam.com/source/buildings/farm)
+* Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
+* Build [`Guard Tower`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
+* 
 
 
 
