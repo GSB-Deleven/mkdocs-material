@@ -9,7 +9,7 @@ icon: material/minecraft
  * edit `world/ftbchunks` to this
 
 
-``` linenums="1" hl_lines="8 9"
+``` title="world/ftbchunks/29854e2f-b5aa-4051-b828-b08953e3cb57.snbt" linenums="1" hl_lines="8 9"
 {
 	max_claim_chunks: 500
 	max_force_load_chunks: 25
@@ -34,7 +34,7 @@ icon: material/minecraft
 
 
 
-  ``` linenums="1" hl_lines="1"
+``` title="world/serverconfig/ftbchunks-world.snbt" linenums="1" hl_lines="8 9"
   {
 	# Forced modes won't let players change their ally settings
 	# Default: "default"
@@ -155,7 +155,7 @@ icon: material/minecraft
 	# Default: false
 	require_game_stage: false
 }
-  ```
+```
 
 ### General
 
