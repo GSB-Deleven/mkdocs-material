@@ -25,6 +25,7 @@ icon: material/minecraft
 * change `world/serverconfig/ftbchunks-world.snbt` to this
 	* disable_protection: true
  	* force_load_mode: "always"
+  	* pvp_mode: "never"
   ``` 
   {
 	# Forced modes won't let players change their ally settings
