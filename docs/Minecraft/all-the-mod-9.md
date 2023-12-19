@@ -9,7 +9,7 @@ icon: material/minecraft
 * Create a Backpack and upgrade it asap (Iron/Gold/Diamond/Netherite)
 * use commands
     * /sethome and /home
-    * ’/rtp’
+    * ‘/rtp‘
 
 ### MineColonies
 
