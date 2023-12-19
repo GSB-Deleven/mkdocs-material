@@ -22,7 +22,9 @@ icon: material/minecraft
    * https://youtu.be/LMNW23_k020 
       
 * Make forceload Chunks available offline
-* change `world/serverconfig/ftbchunks-world.snbt`
+* change `world/serverconfig/ftbchunks-world.snbt` to this
+	* disable_protection: true
+ 	* force_load_mode: "always"
   ``` 
   {
 	# Forced modes won't let players change their ally settings
@@ -58,7 +60,7 @@ icon: material/minecraft
 	# DEFAULT: allow force-loading IF the team has at least one player with the 'ftbchunks.chunk_load_offline' FTB Ranks permission.
 	# Default: "default"
 	# Valid values: "default", "always", "never"
-	force_load_mode: "default"
+	force_load_mode: "always"
 	
 	# Hard limit for the number of chunks a team can claim, regardless of how many members. Default of 0 means no hard limit.
 	# Default: 0
