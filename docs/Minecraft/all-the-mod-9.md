@@ -34,7 +34,7 @@ icon: material/minecraft
 
 
 
-  ``` linenums="1" hl_lines=""
+  ``` linenums="1" hl_lines="1"
   {
 	# Forced modes won't let players change their ally settings
 	# Default: "default"
