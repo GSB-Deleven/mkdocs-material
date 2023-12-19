@@ -34,7 +34,7 @@ icon: material/minecraft
 
 
 
-``` title="world/serverconfig/ftbchunks-world.snbt" linenums="1" hl_lines="8 9"
+``` title="world/serverconfig/ftbchunks-world.snbt" linenums="1" hl_lines="17 35 62 68 114"
   {
 	# Forced modes won't let players change their ally settings
 	# Default: "default"
