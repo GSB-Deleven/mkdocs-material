@@ -139,21 +139,29 @@ icon: material/minecraft
 }
 ```
 
+### Multiplayer
+
+* Join a `team`
+
 ### General
 
-* use and remat `FTB UltiMine` Hotkey
+* use and remap `FTB UltiMine` Hotkey
 * Create a `Backpack` and **upgrade it** asap *(Iron -> Gold -> Diamond -> Netherite)*
 * use commands
     * `/sethome` and `/home`
     * `/rtp` (random teleport)
 * create easy Farms 
     * `Ironfarm`
-    * `Woodfarm` (Hopper Botany Pots)
-        * `chunkload` **Farms** so they always work, even while offline if the settings are right
-
-### Multiplayer
-
-* Join a `team`
+    * Hopper Botany Pots `Farms`
+        * `Saplings/Wood`
+        * `Wheat/Seeds`
+        * `Carrots`
+        * `Potatoes`
+        * `Sugarcane`
+        * `Rice` (Needs `Waterbucker` as soil)
+        * etc.
+    * 
+    * `chunkload` **Farms** so they always work, even while offline if the settings are right
 
 ### MineColonies
 
@@ -165,10 +173,14 @@ icon: material/minecraft
     * Townhall Block to start the Colony
 * Build the [`Townhall`](https://wiki.minecolonies.ldtteam.com/source/buildings/townhall)
 * Build the [`Builders Hut`](https://wiki.minecolonies.ldtteam.com/source/buildings/builder)
+* Build 1-4 [`Guard Towers`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
 * Build `Storage System` and or [`Warehouse`](https://wiki.minecolonies.ldtteam.com/source/buildings/warehouse)
+* Build `Builders Hut`
+* Build Forrest Dude
+* Build `Mine`
 * Build `Farms` and add Farm buildings like [`Farm`](https://wiki.minecolonies.ldtteam.com/source/buildings/farm)
 * Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
-* Build [`Guard Tower`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
+
 * 
 
 
