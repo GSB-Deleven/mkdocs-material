@@ -31,7 +31,7 @@ icon: octicons/command-palette-16
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
 
 
-### Give a player free experience points
+### Experience points
 ```yaml title="Enchant something"
 /experience add <player> <amount> # (1)!
 ```
@@ -98,8 +98,23 @@ icon: octicons/command-palette-16
 1. You do not lose your inventory items after dying. Again, replace true with false to undo.
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
 
-daw
 
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+## Multiplayer
+
+### % of player needs to be in Bed for a night skip
+
+```yaml
+/gamerule playersSleepingPercentage 1 #(1)!
+```
+
+1. Enter the command `/gamerule playersSleepingPercentage <value>` (ensuring to keep the upper case letters). You may set a percentage value between 0 - 100 (Default: 100). For instance, setting this value to 50 will mean that half of your players will need to sleep in order to skip the night. Please note that this command is case sensitive.
 
 
 
@@ -171,6 +186,18 @@ Can also locate
 `structure`  
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
 
+### Set Command Feedback
+
+```yaml
+/gamerule sendCommandFeedback false  
+```  
+will affect "whether the feedback from commands executed by a player should show up in chat."
+
+or
+
+```yaml
+/gamerule commandblockoutput false
+```
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -232,9 +259,8 @@ Can also locate
   
  1. Enables the server writing to the world files. This is the default behavior.
 
-
-
 <!-- ##################################################### JUST A VISUAL SEPARATER ################################################################ -->
+
 
 
 ------------------------------------------------------------------------------------------------------------------------

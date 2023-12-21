@@ -5,7 +5,7 @@ icon: material/backup-restore
 ---
 
 ``` mermaid
-graph LR
+graph TD
   Card[CFexpress/XQD/SD Card] --> Client{Client work?};
   Client -->|Yes| SSD[SSD];
   Client -->|No| LrC[Lightroom Classic!];

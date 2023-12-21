@@ -3,16 +3,6 @@
 
 ## Todo:
 
-- [ ] add the following to the Commands Page
-    ```sh
-    /gamerule sendCommandFeedback false  
-    ```  
-    will affect "whether the feedback from commands executed by a player should show up in chat."
-    
-    or
-    ```sh
-    /gamerule commandblockoutput false
-    ```
 
 - [x] move Todo List to here
 
@@ -25,7 +15,3 @@
     - [ ] Check why light in office tuns on at night
         - [ ] may Omada turns on and off and the light is set to come back on after powerloss or on power on 
 
-- [ ] MineCraft
-    - [ ] Create ATM 9 Section
-        - [ ] Starter Guide with Usefull Commands 
-    - [ ] 
