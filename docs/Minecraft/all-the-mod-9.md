@@ -241,5 +241,15 @@ Incubator -->|Hopper| Chest
 
 * 
 
-
+```mermaid
+mindmap
+  root((Townhall))
+    Builders Hut
+	::icon(fa fa-book)
+      Sublevel 1
+        Sublevel 2
+    New Branch
+      Sublevel 1
+        Sublevel 2
+```
 
