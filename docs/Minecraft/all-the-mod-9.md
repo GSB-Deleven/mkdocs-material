@@ -208,9 +208,21 @@ Incubator -->|Hopper| Chest
   * `chunkload` **Farms** so they always work, even while offline if the settings are right
 
 #### Create Storage System
+
+```
+Create a Mermaid Diagram from Example SToragesystem Here
+```
+
+* Create Energy
+	* Heat Generator
 * Create Battery
-* Controller
-* Drawer System 
+	* Energy Cube
+* Controller + Grid
+	* Sophisticated Storage
+	* Refined Storage
+	* ?
+* Drawer System
+	* Connect to Contrrollers and Grids
 * Disk Drive
 	* Disks
 
