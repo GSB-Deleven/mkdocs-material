@@ -214,9 +214,9 @@ Create a Mermaid Diagram from Example SToragesystem Here
 ```
 
 * Create Energy
-	* Heat Generator
+	* Heat Generator (powah?)
 * Create Battery
-	* Energy Cube
+	* Energy Cube (powah?)
 * Controller + Grid
 	* Sophisticated Storage
 	* Refined Storage
