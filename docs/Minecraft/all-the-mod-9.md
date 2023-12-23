@@ -209,7 +209,7 @@ Incubator -->|Hopper| Chest
 
 #### Create Storage System
 * Create Battery
-* Controller
+* Controller
 * Drawer System 
 * Disk Drive
 	* Disks
