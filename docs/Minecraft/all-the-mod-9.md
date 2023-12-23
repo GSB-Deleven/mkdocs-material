@@ -207,8 +207,15 @@ Incubator -->|Hopper| Chest
 
   * `chunkload` **Farms** so they always work, even while offline if the settings are right
 
+#### Create Storage System
+* Create Battery
+* Controller
+* Drawer System 
+* Disk Drive
+	* Disks
 
-
+#### Create Jetpack
+* Create Player Transmitter  
 
 
 
