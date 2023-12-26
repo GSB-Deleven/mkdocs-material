@@ -1,11 +1,13 @@
 icon: material/minecraft
-# All The Mods 9
+# Server Configs
 
-## Getting Started
+## Deleted Mods 
+* [`Enhanced Celestials`](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials)
+  * Deleted it from Server and CLients
+    * *This mod adds Bloodmoon and other Moonphases which just bothered us*
 
-### Server
-
-* Give more Forceload Chunks (+ CLaim Chunks) and make forceloaded Chunks available while offline
+## Forceload Chunks
+* Give more Forceload Chunks (+ Claim Chunks) and make forceloaded Chunks available while offline
     * change `world/serverconfig/ftbchunks-world.snbt` to this
         * disable_protection: true
         * force_load_mode: "always"
@@ -13,8 +15,6 @@ icon: material/minecraft
         * max_force_loaded_chunks: 2500
         * pvp_mode: "never"
   	
-
-
 
 ```yaml title="world/serverconfig/ftbchunks-world.snbt" linenums="1" hl_lines="17 35 62 68 114"
   {
@@ -138,138 +138,3 @@ icon: material/minecraft
 	require_game_stage: false
 }
 ```
-
-### Multiplayer
-
-* Join a `team`
-
-### General
-
-#### FTB UltiMine 
-Use and remap `FTB UltiMine` Hotkey
-
-#### Create a [`Backpack`](https://www.minecraft-guides.com/mod/sophisticated-backpacks/) 
-[![Create Backpack](https://www.minecraft-guides.com/wp-content/uploads/2022/02/BackpackRecipe-2.jpg)](https://www.minecraft-guides.com/mod/sophisticated-backpacks/)
-[![Upgrade it](https://www.minecraft-guides.com/wp-content/uploads/2022/07/BackpackIron.jpg)](https://www.minecraft-guides.com/mod/sophisticated-backpacks/)
-
-#### Make use of this commands
-    * `/sethome` and `/home`
-    * `/rtp` (random teleport)
-
-#### [Create easy Farms ](https://www.minecraft-guides.com/mod/easy-villagers/)
-
-##### [Ironfarm](https://www.minecraft-guides.com/mod/easy-villagers/)
-
-``` mermaid
-flowchart LR
-1([add Villager]) --> IF{Easy Iron Farm}
-IF --> H[Hopper]
-H --> Chest/Drawer
-```
-
-[![](https://www.minecraft-guides.com/wp-content/uploads/2022/04/IronFarm-1.jpg)](https://www.minecraft-guides.com/mod/easy-villagers/)
-
-[![YOUTUBE Video](https://img.youtube.com/vi/dIVxgOliAyQ/0.jpg)](https://www.youtube.com/watch?v=dIVxgOliAyQ)
-
-
-##### [Hopper Botany Pots Farms](https://www.youtube.com/watch?v=JU4LVv10VMw)
-
-[![YOUTUBE Video](https://img.youtube.com/vi/JU4LVv10VMw/0.jpg)](https://www.youtube.com/watch?v=JU4LVv10VMw)
-
-
-``` mermaid
-flowchart LR
-1([add Soil/Water/etc]) --> HBP{Hopper Botany Pot}
-2([add Seed/Sapling/etc]) --> HBP
-HBP --> H[Hopper]
-H --> C[Chest/Drawer]
-```
-
-  * [x] Saplings/Wood
-  * [x] Wheat/Seeds
-  * [x] Carrots
-  * [x] Potatoes
-  * [x] Sugarcane
-  * [x] Rice (Needs `Waterbucker` as soil)
-  * [ ] etc.
-   
-##### [Villager Farm (AutoBreeder)](https://www.minecraft-guides.com/mod/easy-villagers/)
-
-[![YOUTUBE Video](https://img.youtube.com/vi/dIVxgOliAyQ/0.jpg)](https://www.youtube.com/watch?v=dIVxgOliAyQ)
-
-``` mermaid
-flowchart LR
-Farmer[Farmer with Carrots] -->|Hopper| Breeder
-Breeder -->|Hopper| Incubator
-Incubator -->|Hopper| Chest
-```
-
-
-  * `chunkload` **Farms** so they always work, even while offline if the settings are right
-
-#### Create Storage System
-
-```
-Create a Mermaid Diagram from Example SToragesystem Here
-```
-
-* Create Energy
-	* Heat Generator (powah?)
-* Create Battery
-	* Energy Cube (powah?)
-* Controller + Grid
-	* Sophisticated Storage
-	* Refined Storage
-	* RFtoolsstorage
-  * Functional Storage
-* Drawer System
-	* Connect to Contrrollers and Grids
-* Disk Drive
-	* Disks
-
-#### Create Jetpack
-* Create Player Transmitter  
-
-
-
-
----
-
-
-
-
-
-
-
-### MineColonies
-
-* Tipps https://youtu.be/v2zLNFeX-X4?si=gCd1woN4cqJ29UBM
-
-* build `Supplycamp/Supplyship` as starter Base (only needs 5 Chests or 5 Boats)
-    * it will give you a place to Sleep
-    * Starting Material
-    * Townhall Block to start the Colony
-* Build the [`Townhall`](https://wiki.minecolonies.ldtteam.com/source/buildings/townhall)
-* Build the [`Builders Hut`](https://wiki.minecolonies.ldtteam.com/source/buildings/builder)
-* Build 1-4 [`Guard Towers`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
-* Build `Storage System` and or [`Warehouse`](https://wiki.minecolonies.ldtteam.com/source/buildings/warehouse)
-* Build `Builders Hut`
-* Build Forrest Dude
-* Build `Mine`
-* Build `Farms` and add Farm buildings like [`Farm`](https://wiki.minecolonies.ldtteam.com/source/buildings/farm)
-* Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
-
-* 
-
-```mermaid
-mindmap
-  root((Townhall))
-    Builders Hut
-	::icon(fa fa-book)
-      Sublevel 1
-        Sublevel 2
-    New Branch
-      Sublevel 1
-        Sublevel 2
-```
-

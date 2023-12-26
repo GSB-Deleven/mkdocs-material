@@ -194,10 +194,14 @@ nav:
       - Home Assistant: 
           - HomeAssistant/HomeAssistant.md
   - Minecraft:
-      - Commands: Minecraft/commands.md
-      - Guides: Minecraft/guides.md
-      - Server Setup: Minecraft/server-setup.md
-      - All the Mods 9: Minecraft/all-the-mod-9.md
+      - General:
+        - Server Setup: Minecraft/_general/server-setup.md
+        - Commands: Minecraft/_general/commands.md
+        - Guides: Minecraft/_general/guides.md
+      - All the Mods 9:
+        - Server Settings: Minecraft/atm9/Serverconfig.md
+        - Getting started: Minecraft/atm9/all-the-mod-9.md
+
       - Better Minecraft 4: Minecraft/better-minecraft-4.md
   - Photography:
       - Backup Strategy: Photography/Backup_Strategy.md
