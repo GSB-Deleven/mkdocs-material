@@ -21,27 +21,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/Minecraft/all-the-mod-9/</loc>
-         <lastmod>2023-12-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://deleven.net/Minecraft/better-minecraft-4/</loc>
          <lastmod>2023-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/Minecraft/commands/</loc>
+         <loc>https://deleven.net/Minecraft/_general/commands/</loc>
          <lastmod>2023-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/Minecraft/guides/</loc>
+         <loc>https://deleven.net/Minecraft/_general/guides/</loc>
          <lastmod>2023-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/Minecraft/server-setup/</loc>
+         <loc>https://deleven.net/Minecraft/_general/server-setup/</loc>
+         <lastmod>2023-12-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Minecraft/atm9/Serverconfig/</loc>
+         <lastmod>2023-12-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/Minecraft/atm9/all-the-mod-9/</loc>
          <lastmod>2023-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
