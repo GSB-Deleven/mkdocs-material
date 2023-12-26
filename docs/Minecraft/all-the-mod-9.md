@@ -9,8 +9,8 @@ icon: material/minecraft
     * change `world/serverconfig/ftbchunks-world.snbt` to this
         * disable_protection: true
         * force_load_mode: "always"
-        * max_claimed_chunks: 500
-        * max_force_loaded_chunks: 25
+        * max_claimed_chunks: 5000
+        * max_force_loaded_chunks: 2500
         * pvp_mode: "never"
   	
 
