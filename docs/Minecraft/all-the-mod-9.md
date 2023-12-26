@@ -84,7 +84,7 @@ icon: material/minecraft
 	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 	# Default: 25
 	# Range: -∞ ~ +∞
-	max_force_loaded_chunks: 250
+	max_force_loaded_chunks: 2500
 	
 	# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 	# Prevents chunks being claimed indefinitely by teams who no longer play.
