@@ -93,9 +93,20 @@ Use and remap [`FTB UltiMine`](https://www.curseforge.com/minecraft/mc-mods/ftb-
 
 ??? guide "Guide"
 
-	```
-	Create a Mermaid Diagram from Example Soragesystem Here
-	```
+``` mermaid
+flowchart TD
+RSC(((Refined Storage Controller))) ---|Universal Cable| DD(Disk Drive)
+RSDM([Refined Storage Disk Manipulator]) ---|Universal Cable| RSC
+RSCG([Refined Storage Crafting Grid]) <--> RSC
+RFNT([Refined Storage Network Transmitter]) <--> RSC
+RFNT -.- RSNR([Refined Storage Network Receiver])
+RSNR --- RSC2(((Refined Storage Controller 2)))
+RSC2 --- RSCG2([Refined Storage Crafting Grid 2])
+D1[Disk 1] --> DD
+
+
+
+```
 
 	* Create Energy
 		* Heat Generator (powah?)
@@ -112,7 +123,7 @@ Use and remap [`FTB UltiMine`](https://www.curseforge.com/minecraft/mc-mods/ftb-
 		* Disks
 
 #### Create Jetpack
-* Create Player Transmitter  
+* Create `Player Transmitter` *(Powah)*
 
 
 
