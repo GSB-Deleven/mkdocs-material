@@ -1,5 +1,7 @@
 icon: material/server
 # Server Setup
+<iframe src="https://crafty.deleven.net/status" width="100%" height="420"></iframe>
+
 
 ## Install and Setup Crafty Controller 4 (on Proxmox LXC)
 
