@@ -5,7 +5,7 @@ icon: material/minecraft
 
 ### Multiplayer
 
-* Join a `team`
+* Join a `team` so they can use stuff in your claim etc.
 
 ### General
 
@@ -14,7 +14,7 @@ Use and remap [`FTB UltiMine`](https://www.curseforge.com/minecraft/mc-mods/ftb-
 
 ---
 
-#### Create a [`Backpack`](https://www.minecraft-guides.com/mod/sophisticated-backpacks/) 
+#### Create a [`Backpack`](https://www.minecraft-guides.com/mod/sophisticated-backpacks/) and `upgrade` it
 
 ??? guide "Recipe & Guide"
 
@@ -91,39 +91,31 @@ Use and remap [`FTB UltiMine`](https://www.curseforge.com/minecraft/mc-mods/ftb-
 
 #### Create Storage System
 
-??? guide "Guide"
+Created with:  
 
-``` mermaid
-flowchart TD
-RSC(((Refined Storage Controller))) ---|Universal Cable| DD(Disk Drive)
-RSDM([Refined Storage Disk Manipulator]) ---|Universal Cable| RSC
-RSCG([Refined Storage Crafting Grid]) <--> RSC
-RFNT([Refined Storage Network Transmitter]) <--> RSC
-RFNT -.- RSNR([Refined Storage Network Receiver])
-RSNR --- RSC2(((Refined Storage Controller 2)))
-RSC2 --- RSCG2([Refined Storage Crafting Grid 2])
-D1[Disk 1] --> DD
+* [Refined Storage](https://refinedmods.com/refined-storage/networking/controller.html#nav-controller)  
+* [Mekanism](https://wiki.aidancbrady.com/wiki/Universal_Cable)
+
+???+ guide "Flowchart"
+
+	![Alt text](../../images/draw.io/MC_ATM9_Storage_System.drawio.svg)
 
 
 
-```
 
-	* Create Energy
-		* Heat Generator (powah?)
-	* Create Battery
-		* Energy Cube (powah?)
-	* Controller + Grid
-		* Sophisticated Storage
-		* Refined Storage
-		* RFtoolsstorage
-	* Functional Storage
-	* Drawer System
-		* Connect to Contrrollers and Grids
-	* Disk Drive
-		* Disks
+---
 
-#### Create Jetpack
-* Create `Player Transmitter` *(Powah)*
+
+
+
+
+
+#### Create [Jetpack](https://youtu.be/Ko-rLC5VIwU?si=sloBu3q5wwcMowHm&t=1474)
+* Create [`Player Transmitter`](https://www.youtube.com/watch?v=JpguJUiZr_Q) *(Powah)*
+
+
+
+
 
 
 
@@ -147,24 +139,16 @@ D1[Disk 1] --> DD
 * Build the [`Townhall`](https://wiki.minecolonies.ldtteam.com/source/buildings/townhall)
 * Build the [`Builders Hut`](https://wiki.minecolonies.ldtteam.com/source/buildings/builder)
 * Build 1-4 [`Guard Towers`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
+* Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
 * Build `Storage System` and or [`Warehouse`](https://wiki.minecolonies.ldtteam.com/source/buildings/warehouse)
 * Build `Builders Hut`
-* Build Forrest Dude
-* Build `Mine`
-* Build `Farms` and add Farm buildings like [`Farm`](https://wiki.minecolonies.ldtteam.com/source/buildings/farm)
-* Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
+* Build the other stuff like
+  * University
+  * Hospital
+  * School
+  * Miner
+  * Forrester
+  * etc.
 
-* 
 
-```mermaid
-mindmap
-  root((Townhall))
-    Builders Hut
-	::icon(fa fa-book)
-      Sublevel 1
-        Sublevel 2
-    New Branch
-      Sublevel 1
-        Sublevel 2
-```
 
