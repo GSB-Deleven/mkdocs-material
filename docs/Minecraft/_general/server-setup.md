@@ -1,8 +1,17 @@
 icon: material/server
 # Server Setup
 
+## Serverstatus
+
+All the Mods 9     
+![](https://up.deleven.net/api/badge/1/status?style=for-the-badge)
+  
+  
+Better Minecraft 4  
+![](https://up.deleven.net/api/badge/2/status?style=for-the-badge)
+
 <iframe src="https://crafty.deleven.net/status" width="100%" height="420"></iframe>
-<iframe src="https://up.deleven.net/status/minecraft" width="100%" height="420"></iframe>
+
 
 ## Install and Setup Crafty Controller 4 (on Proxmox LXC)
 
