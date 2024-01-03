@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://deleven.net/tags/</loc>
+         <lastmod>2024-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://deleven.net/Docker/Docker/</loc>
          <lastmod>2024-01-03</lastmod>
          <changefreq>daily</changefreq>
@@ -77,6 +82,11 @@
     </url>
     <url>
          <loc>https://deleven.net/scripts-and-snippets/neofetch/</loc>
+         <lastmod>2024-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deleven.net/tags/</loc>
          <lastmod>2024-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
