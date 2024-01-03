@@ -9,6 +9,8 @@ categories:
 links:
   - setup/setting-up-a-blog.md
   - plugins/blog.md
+tags:
+    - Blogpost
 ---
 
 # Just a Test Blogpost

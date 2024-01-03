@@ -1,6 +1,10 @@
+---
 icon: material/minecraft
-# Better Minecraft 4
-
+title: Better Minecraft 4
+tags:
+    - Minecraft
+    - Better Minecraft 4
+---
 ## General Info
 
 ### Modpack 

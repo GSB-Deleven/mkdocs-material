@@ -1,6 +1,9 @@
 ---
 icon: material/backup-restore
 title: Backup Strategy
+tags:
+    - Deleven Photography
+    - Backup Strategy
 ---
 
 ---

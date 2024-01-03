@@ -1,6 +1,9 @@
 ---
 icon: material/minecraft
 title: Server Configs
+tags:
+    - Minecraft
+    - All the Mods 9
 ---
 
 ## Deleted Mods 

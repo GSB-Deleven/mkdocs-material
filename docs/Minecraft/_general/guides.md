@@ -1,6 +1,8 @@
 ---
 icon: octicons/book-16
 title: Guides
+tags:
+    - Minecraft
 ---
 
 ## Mods

@@ -1,6 +1,9 @@
 ---
 icon: material/server
 title: Server Setup
+tags:
+    - Minecraft
+    - Hardware - NAB6
 ---
 
 ## Serverstatus

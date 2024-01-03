@@ -1,6 +1,9 @@
 ---
 title: HomeLab
 icon: material/home
+tags:
+    - HomeLab
+    - Hardware
 ---
 
 ## :bulb: Inspiration
@@ -90,7 +93,7 @@ sudo nala install neofetch
 
 !!! tip "GitHub"
 
-    for the compose files see: [docker-compose files](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/scripts-and-snippets/docker-compose%20files) in the [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/scripts-and-snippets/docker-compose%20files)
+    for the compose files see: [docker-compose files](https://github.com/GSB-Deleven/mkdocs-material/tree/169aa11d1629d44788b6e5ca3c410a11ba8512f4/docs/Docker/docker-compose%20files) in the [:simple-github: GitHub Repo](https://github.com/GSB-Deleven/mkdocs-material/tree/169aa11d1629d44788b6e5ca3c410a11ba8512f4/docs/Docker/docker-compose%20files)
 
 #### Table
 

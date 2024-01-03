@@ -1,6 +1,9 @@
 ---
 icon: material/minecraft
 title: All The Mods 9
+tags:
+    - Minecraft
+    - All the Mods 9
 ---
 
 ## Getting Started

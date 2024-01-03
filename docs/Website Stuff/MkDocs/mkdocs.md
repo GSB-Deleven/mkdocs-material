@@ -1,6 +1,8 @@
 ---
 icon: simple/materialformkdocs
 title: Material for MkDocs
+    - Material for MkDocs
+    - MkDocs
 ---
 
 ## Official Documentation

@@ -1,6 +1,9 @@
 ---
 icon: simple/proxmox
 title: Proxmox
+tags:
+    - Proxmox
+    - Hardware - NAB6
 ---
 
 ## Proxmox Helper Scripts

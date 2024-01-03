@@ -1,6 +1,8 @@
 ---
 icon: octicons/command-palette-16
 title: Commands
+tags:
+    - Minecraft
 ---
 
 ## Explanation

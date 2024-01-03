@@ -1,6 +1,11 @@
 ---
 icon: simple/portainer
 title: Portainer
+tags:
+    - Docker
+    - Portainer
+    - docker-compose
+    - stacks
 ---
 
 ---
