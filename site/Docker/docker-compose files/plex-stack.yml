@@ -1,0 +1,65 @@
+version: "2.1"
+services:
+  #  ___  _     ___ __  __
+  # | _ \| |   | __|\ \/ /
+  # |  _/| |__ | _|  >  < 
+  # |_|  |____||___|/_/\_\
+
+
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - VERSION=docker
+    volumes:
+      - /plex/config:/config
+      - ${MediaHUB_Mount}/TV:/tv
+      - ${MediaHUB_Mount}/Movies:/movies
+      - ${MediaHUB_Mount}/Music:/music
+      - ${MediaHUB_Mount}/Family:/family
+    restart: unless-stopped
+  #  _____             _          _  _  _ 
+  # |_   _|__ _  _  _ | |_  _  _ | || |(_)
+  #   | | / _` || || ||  _|| || || || || |
+  #   |_| \__,_| \_,_| \__| \_,_||_||_||_|
+
+
+  tautulli:
+    image: lscr.io/linuxserver/tautulli:latest
+    container_name: tautulli
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/tautulli/config:/config
+    ports:
+      - ${tautulli_PORT}:8181
+    restart: unless-stopped
+  #   ___                                         
+  #  / _ \ __ __ ___  _ _  ___ ___  ___  _ _  _ _ 
+  # | (_) |\ V // -_)| '_|(_-</ -_)/ -_)| '_|| '_|
+  #  \___/  \_/ \___||_|  /__/\___|\___||_|  |_|  
+
+
+
+  overseerr:
+    image: lscr.io/linuxserver/overseerr:latest
+    container_name: overseerr
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${Docker_Mount}/overseerr/config:/config
+    ports:
+      - ${overseerr_PORT}:5055
+    restart: unless-stopped
+x-dockge:
+  urls:
+    - https://app.plex.tv/
+networks: {}
