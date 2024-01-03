@@ -12,11 +12,7 @@ icon: simple/docker
     ```
 
 
-
 ---
-
-
-
 
 
 
