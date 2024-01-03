@@ -2,7 +2,7 @@ icon: simple/portainer
 # Portainer
 
 ## docker compose files / stacks
-Are all [here](https://github.com/GSB-Deleven/mkdocs-material/tree/1b7b01e7732118f7e1bf828b65608ff73c749401/docs/scripts-and-snippets/docker-compose%20files)
+Are all [here](https://github.com/GSB-Deleven/mkdocs-material/tree/aa175d83bcad1900c49bdcf7ab12639f351f3f1e/docs/Docker/docker-compose%20files)
 
 ## Use one .env file and Link to it
 
