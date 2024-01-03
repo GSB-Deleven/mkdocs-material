@@ -6,7 +6,7 @@ services:
     volumes:
       - uptime-kuma:/app/data
     ports:
-      - ${uptime-kuma_PORT}:3001 # <Host Port>:<Container Port>
+      - ${uptime_kuma_PORT}:3001 # <Host Port>:<Container Port>
     restart: always
 volumes:
   uptime-kuma: null
