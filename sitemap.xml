@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://deleven.net/Docker/Stacks/</loc>
+         <lastmod>2024-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://deleven.net/Docker/Portainer/portainer/</loc>
          <lastmod>2024-01-03</lastmod>
          <changefreq>daily</changefreq>
