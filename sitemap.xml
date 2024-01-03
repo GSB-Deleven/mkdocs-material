@@ -76,22 +76,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deleven.net/blog/2023/12/13/just-a-test-blogpost/</loc>
-         <lastmod>2024-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://deleven.net/scripts-and-snippets/neofetch/</loc>
-         <lastmod>2024-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://deleven.net/blog/archive/2023/</loc>
-         <lastmod>2024-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://deleven.net/blog/category/blog/</loc>
          <lastmod>2024-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
