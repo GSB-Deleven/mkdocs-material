@@ -1,6 +1,7 @@
+---
 icon: material/backup-restore
-
-# Backup Strategy
+title: Backup Strategy
+---
 
 ---
 

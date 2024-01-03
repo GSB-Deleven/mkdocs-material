@@ -1,3 +1,4 @@
+---
+title: Home Assistant
 icon: simple/homeassistant
-
-# Home Assistant
+---

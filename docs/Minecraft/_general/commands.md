@@ -1,5 +1,7 @@
+---
 icon: octicons/command-palette-16
-# Commands
+title: Commands
+---
 
 ## Explanation
 

@@ -1,5 +1,7 @@
+---
 icon: simple/materialformkdocs
-# Material for MkDocs
+title: Material for MkDocs
+---
 
 ## Official Documentation
 * **[:simple-materialformkdocs: Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)**

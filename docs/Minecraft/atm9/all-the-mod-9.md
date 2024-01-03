@@ -1,5 +1,7 @@
+---
 icon: material/minecraft
-# All The Mods 9
+title: All The Mods 9
+---
 
 ## Getting Started
 

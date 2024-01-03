@@ -1,8 +1,7 @@
 ---
+title: HomeLab
 icon: material/home
 ---
-
-# My HomeLab
 
 ## :bulb: Inspiration
 

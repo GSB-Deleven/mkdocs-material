@@ -1,5 +1,7 @@
+---
 icon: octicons/book-16
-# Guides
+title: Guides
+---
 
 ## Mods
 

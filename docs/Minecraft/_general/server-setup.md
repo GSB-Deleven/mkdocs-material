@@ -1,5 +1,7 @@
+---
 icon: material/server
-# Server Setup
+title: Server Setup
+---
 
 ## Serverstatus
 

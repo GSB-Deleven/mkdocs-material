@@ -1,6 +1,7 @@
+---
 icon: simple/portainer
-# Portainer
-
+title: Portainer
+---
 
 ---
 

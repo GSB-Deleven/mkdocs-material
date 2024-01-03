@@ -1,5 +1,9 @@
+---
+title: Stacks
 icon: simple/octopusdeploy
-# [:simple-github: Stacks](https://github.com/GSB-Deleven/mkdocs-material/tree/9a17719447ba52e67c076483c3ad040b0fc4fae6/docs/Docker/docker-compose%20files)
+---
+
+
 
 All [:simple-github: Portainer Stacks](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/Docker/docker-compose%20files) are directly linked to [:simple-github: GitHub](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/Docker/docker-compose%20files), so if i update them on [:simple-github: GitHub](https://github.com/GSB-Deleven/mkdocs-material/tree/main/docs/Docker/docker-compose%20files), 5min Later, they will be Updated in [:simple-portainer: Portainer](Portainer/portainer.md)
 ![Alt text](../images/screengrabs/Portainer/portainer_stack_link_to_github.png)

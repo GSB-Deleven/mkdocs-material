@@ -1,5 +1,7 @@
+---
+title: Docker
 icon: simple/docker
-# Docker
+---
 
 ## Tips & Tricks
 

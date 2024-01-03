@@ -76,7 +76,8 @@ theme:
 # Plugins
 #############################################################################################################################################
 plugins:
-  - blog
+  - blog:
+      draft: false #doesn't post drafts, but will stillö be available in preview (local render)
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/

@@ -1,7 +1,7 @@
+---
 icon: simple/proxmox
-
-# Proxmox
-
+title: Proxmox
+---
 
 ## Proxmox Helper Scripts
 [![Proxmox Helper Scripts](../images/screengrabs/proxmox-helper-scripts.png)](https://tteck.github.io/Proxmox/)

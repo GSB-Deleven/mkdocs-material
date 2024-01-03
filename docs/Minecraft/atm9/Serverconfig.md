@@ -1,5 +1,7 @@
+---
 icon: material/minecraft
-# Server Configs
+title: Server Configs
+---
 
 ## Deleted Mods 
 * [`Enhanced Celestials`](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials)
