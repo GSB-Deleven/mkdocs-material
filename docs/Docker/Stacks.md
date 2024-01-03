@@ -21,7 +21,6 @@ includes
 
 ---
 
----
 
 ## [:simple-github: Cloudflare DDNS Updater](https://github.com/GSB-Deleven/mkdocs-material/blob/9a17719447ba52e67c076483c3ad040b0fc4fae6/docs/Docker/docker-compose%20files/cloudflare.yml)
 
