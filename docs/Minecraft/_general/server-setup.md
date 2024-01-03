@@ -15,7 +15,7 @@ Better Minecraft 4
 
 ## Install and Setup Crafty Controller 4 (on Proxmox LXC)
 
-1. My Server runs on a [Proxmox Ubuntu LXC Container](../Proxmox/proxmox.md)
+1. My Server runs on a [Proxmox Ubuntu LXC Container](../../Proxmox/proxmox.md)
 
 2. Install **[Crafty Controller 4](https://docs.craftycontrol.com/)** according to [the official Guide](https://docs.craftycontrol.com/pages/getting-started/installation/linux/)
 
@@ -77,7 +77,7 @@ Better Minecraft 4
   	* Basically it is this
     	* Create a Forge Server
       * Fill out all the necessary details
-      * ![mc_server_create_new_server.png](../images/screengrabs/crafty/mc_server_create_new_server.png)
+      * ![mc_server_create_new_server.png](../../images/screengrabs/crafty/mc_server_create_new_server.png)
       	- [x] Modded
         - [x] forge
         - [x] Server Version (Check the one needed from you [Modpack](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4))
@@ -85,9 +85,9 @@ Better Minecraft 4
         - [x] Set the Server Port
         - [x] Build Server!
     * Download the Modpack you want from [Curse-Forge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortType=2&class=modpacks) make sure download the `Server Pack`, not the regular one
-    	![download_serverpack.png](../images/screengrabs/MineCraft/download_serverpack.png)
+    	![download_serverpack.png](../../images/screengrabs/MineCraft/download_serverpack.png)
     * Upload the ZIP File
-        	* ![mc_server_upload_zip.png](../images/screengrabs/crafty/mc_server_upload_zip.png)
+        	* ![mc_server_upload_zip.png](../../images/screengrabs/crafty/mc_server_upload_zip.png)
 
 		!!! tip
 
@@ -95,7 +95,7 @@ Better Minecraft 4
 			```title="location of config.json"
 			sudo nano /var/opt/minecraft/crafty/crafty-4/app/config/config.json
 			```
-		![Alt text](../images/screengrabs/change_to_100GB.png)
+		![Alt text](../../images/screengrabs/change_to_100GB.png)
 
 
 		!!! danger "If it didn't work"
@@ -107,7 +107,7 @@ Better Minecraft 4
 				sudo passwd crafty
 			```
 			set a new password and use this to login to WinSCP
-			![Alt text](../images/screengrabs/crafty/crafty_winscp.png)
+			![Alt text](../../images/screengrabs/crafty/crafty_winscp.png)
 			After this, you can just add the ==unzipped== files from the downloaded server `.zip` file to the server directly  
 			(not the .zip folder, just the files in the folder)  
 			If it askes you if it should override the data, you can say `yes`
@@ -128,15 +128,15 @@ Better Minecraft 4
       * `Autostart`
       * `Crash Detection` and 
       * `Show on Public Status Page` toggle
-  	![mc_server_config](../images/screengrabs/crafty/mc_server_config.png)
+  	![mc_server_config](../../images/screengrabs/crafty/mc_server_config.png)
     
 	* Go to Backups and set, how the Server gets backed up and how many Backups it keeps
     
-		![mc_server_backup_settings.png](../images/screengrabs/crafty/mc_server_backup_settings.png)
+		![mc_server_backup_settings.png](../../images/screengrabs/crafty/mc_server_backup_settings.png)
     
 	* and then Sheduale a Backup (i also added some Warning Messages before)
     
-		![schedule_mc_server_backup.png](../images/screengrabs/crafty/schedule_mc_server_backup.png)
+		![schedule_mc_server_backup.png](../../images/screengrabs/crafty/schedule_mc_server_backup.png)
 
 	!!! warning
 		Make sure you have the proper [server.properties (:simple-github: Link)](https://github.com/GSB-Deleven/mkdocs-material/blob/f553e9ed95267758aae6566f9ce995e04a6e18e0/docs/Minecraft/server.properties) added before you start your server.  
@@ -184,9 +184,9 @@ Better Minecraft 4
 	```
 
 * This will then create the `A-Record` for you and keeps it up to date
-	![Alt text](../images/screengrabs/MineCraft/bmc_A_record.png)
+	![Alt text](../../images/screengrabs/MineCraft/bmc_A_record.png)
 
 * `CNAME` bmc (Proxied)
-	![Alt text](../images/screengrabs/MineCraft/bmc_cname_record.png)
+	![Alt text](../../images/screengrabs/MineCraft/bmc_cname_record.png)
 * `SRV` 
-	![Alt text](../images/screengrabs/MineCraft/bmc_srv_record.png)
+	![Alt text](../../images/screengrabs/MineCraft/bmc_srv_record.png)

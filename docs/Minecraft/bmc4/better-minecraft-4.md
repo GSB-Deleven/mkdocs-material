@@ -5,7 +5,7 @@ icon: material/minecraft
 
 ### Modpack 
 [Better Minecraft 4 [FORGE]](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)  
-[![Alt text](../images/BetterMinecraft4_Logo.jpg)](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)
+[![Alt text](../../images/BetterMinecraft4_Logo.jpg)](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)
 
 
 
