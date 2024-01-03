@@ -1,0 +1,74 @@
+version: "3"
+services:
+  #####################################################################################################
+  # __  ____   ___      _   ___ ____
+  # |  \/  \ \ / / |    /_\ | _ \__ /
+  # | |\/| |\ V /| |__ / _ \|   /|_ \
+  # |_|  |_| |_| |____/_/ \_\_|_\___/
+  #####################################################################################################                                
+
+  # uncomment if you want to run it
+  #  mylar3:
+  #    env_file:
+  #      - /mnt/DS920_docker/.env
+  #    image: lscr.io/linuxserver/mylar3:latest
+  #    container_name: mylar3
+  #    environment:
+  #      - PUID=${NAS_PUID}
+  #      - PGID=${NAS_PGID}
+  #      - TZ=${TZ}
+  #    volumes:
+  #      - ${Docker_Mount}/mylar3/config:/config
+  #      - ${MediaHUB_Mount}/comics:/comics
+  #      - ${MediaHUB_Mount}/sabnzbd/downloads/comics:/downloads
+  #    ports:
+  #      - ${mylar3_PORT}:8090
+  #    restart: unless-stopped
+  #       network_mode: bridge
+
+  #####################################################################################################  
+  #   _  _____  __  __  ___   _   
+  #  | |/ / _ \|  \/  |/ __| /_\  
+  #  | ' < (_) | |\/| | (_ |/ _ \ 
+  #  |_|\_\___/|_|  |_|\___/_/ \_\
+  #
+  #####################################################################################################                              
+  komga:
+    image: gotson/komga
+    container_name: komga
+    volumes:
+      - type: bind
+        source: ${Docker_Mount}/komga/config
+        target: /config
+      - type: bind
+        source: ${MediaHUB_Mount}/comics
+        target: /data
+    ports:
+      - ${komga_PORT}:25600
+    user: ${NAS_PUID}:${NAS_PGID}
+    environment:
+      - TZ=${TZ}
+      - JAVA_TOOL_OPTIONS=-Xmx4g #Optional, makes 4GB of RAM instead of 1 GB of RAM available
+    restart: unless-stopped
+    network_mode: bridge
+  #####################################################################################################  
+  #  _  __   ___   _____ _____ _   
+  # | |/ /  /_\ \ / /_ _|_   _/_\  
+  # | ' <  / _ \ V / | |  | |/ _ \ 
+  # |_|\_\/_/ \_\_/ |___| |_/_/ \_\
+  #                                
+  ##################################################################################################### 
+
+  kavita:
+    image: jvmilazz0/kavita:latest
+    container_name: kavita
+    volumes:
+      - ${MediaHUB_Mount}/comics:/comics
+      - ${Docker_Mount}/kavita:/kavita/config
+    environment:
+      - TZ=${TZ}
+    ports:
+      - ${kavita_PORT}:5000
+    restart: unless-stopped
+    network_mode: bridge
+networks: {}
