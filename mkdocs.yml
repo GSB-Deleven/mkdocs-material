@@ -158,6 +158,7 @@ markdown_extensions:
       base_path:
         - docs
         - docs/Minecraft
+        - 
       auto_append:
         - includes/mkdocs.md
   - pymdownx.superfences:
@@ -191,6 +192,7 @@ nav:
       - Docker:
           - Docker/Docker.md
           - Portainer: Docker/Portainer/portainer.md
+          - Stacks / Compose Files:  Docker/Stacks.md
       - Home Assistant: 
           - HomeAssistant/HomeAssistant.md
   - Minecraft:
