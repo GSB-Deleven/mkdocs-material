@@ -1,6 +1,11 @@
 ---
 title: Stacks
 icon: simple/octopusdeploy
+tags:
+    - Docker
+    - Portainer
+    - docker-compose
+    - stacks
 ---
 
 

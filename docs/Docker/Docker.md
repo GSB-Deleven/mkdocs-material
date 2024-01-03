@@ -1,6 +1,8 @@
 ---
 title: Docker
 icon: simple/docker
+tags:
+    - Docker
 ---
 
 ## Tips & Tricks

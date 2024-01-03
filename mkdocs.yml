@@ -76,8 +76,11 @@ theme:
 # Plugins
 #############################################################################################################################################
 plugins:
+  - tags:
+      tags_file: tags.md
   - blog:
       draft: false #doesn't post drafts, but will stillö be available in preview (local render)
+      draft_if_future_date: true # The plugin can automatically mark posts with future dates as drafts. When the date is past today, the post is automatically included when building your project, unless explicitly marked as draft:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify: # install via --------    pip install mkdocs-minify-plugin   ----------- Details: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
