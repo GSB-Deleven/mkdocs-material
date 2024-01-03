@@ -1,21 +1,21 @@
 version: "3"
 services:
-cloudflare-ddns-updater:
+  cloudflare-ddns-updater:
     image: favonia/cloudflare-ddns:latest
     network_mode: host
     cap_add:
-    - SETUID # Leave this alone, as is
-    - SETGID # Leave this alone, as is
+      - SETUID # Leave this alone, as is
+      - SETGID # Leave this alone, as is
     cap_drop:
-    - all
+      - all
     read_only: true
     security_opt:
-    - no-new-privileges:true
+      - no-new-privileges:true
     environment:
-    - PUID=1000
-    - PGID=1000
-    - CF_API_TOKEN=${CF_API_TOKEN} 
-    - DOMAINS=${DOMAINS} 
-    - PROXIED=true
-    - IP6_PROVIDER=none
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - CF_API_TOKEN=${CF_API_TOKEN}
+      - DOMAINS=${DOMAINS}
+      - PROXIED=true
+      - IP6_PROVIDER=none
     restart: unless-stopped
