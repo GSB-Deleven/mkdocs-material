@@ -136,25 +136,30 @@ Created with:
 ### MineColonies
 
 * Tipps https://youtu.be/v2zLNFeX-X4?si=gCd1woN4cqJ29UBM
+* Follow this [Guide](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started)
+  
+!!! guide
 
-* build `Supplycamp/Supplyship` as starter Base (only needs 5 Chests or 5 Boats)
-    * it will give you a place to Sleep
-    * Starting Material
-    * Townhall Block to start the Colony
-* Build the [`Townhall`](https://wiki.minecolonies.ldtteam.com/source/buildings/townhall)
-* Build the [`Builders Hut`](https://wiki.minecolonies.ldtteam.com/source/buildings/builder)
-* Build 1-4 [`Guard Towers`](https://wiki.minecolonies.ldtteam.com/source/buildings/guardtower) and other defense `Buildings`
-* Build [`Tavern`](https://wiki.minecolonies.ldtteam.com/source/buildings/tavern)
-* Build `Storage System` and or [`Warehouse`](https://wiki.minecolonies.ldtteam.com/source/buildings/warehouse)
-* Build `Builders Hut`
-* Build the other stuff like
-  * University
-  * Hospital
-  * School
-  * Miner
-  * Forrester
-  * etc.
-
+    * [Getting Started](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#getting-started)
+    * [Quick Walkthrough](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#quick-walkthrough)
+    	* [Step 1: Supply Camp/Supply Ship](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-1-supply-campsupply-ship)
+    	* [Step 2: Town Hall](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-2--building-townhall-)
+    	* [Step 3: Builder](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-3-builder)
+    	* [Step 4: Tavern](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-4-tavern)
+    	* [Step 5: Food](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-5-food)
+    	* [Step 6: Forester](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-6-forester)
+    	* [Step 7: Miner](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-7-miner)
+    	* [Step 8: Warehouse and courier](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-8-warehouse-and-courier)
+    	* [Step 9: Rest of the Colony](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-9-rest-of-the-colony)
+    * [Detailed Walkthrough](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#detailed-walkthrough)
+    	* [Placement of the Supply Ship or Supply Camp](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#placement-of-the-supply-ship-or-supply-camp)
+    	* [Town Hall](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#town-hall)
+    * [Setting Up Your Colony](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#setting-up-your-colony)
+    	* [Step 1](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-1)
+    	* [Step 2](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-2)
+    	* [Step 3](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-3)
+    	* [Step 4](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#step-4)
+    * [Final Notes](https://wiki.minecolonies.ldtteam.com/source/tutorials/getting-started#final-notes)
 
 new config (Shutdown server before changing the config, otherwise it will reset it, if you do it whil the server runs)
 
