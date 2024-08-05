@@ -2,92 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://deleven.net/</loc>
-         <lastmod>2024-01-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://deleven.net/tags/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Docker/Docker/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Docker/Stacks/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Docker/Portainer/portainer/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/HomeAssistant/HomeAssistant/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/_general/commands/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/_general/guides/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/_general/server-setup/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/atm9/Serverconfig/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/atm9/all-the-mod-9/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Minecraft/bmc4/better-minecraft-4/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Photography/Backup_Strategy/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Proxmox/proxmox/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/Website%20Stuff/MkDocs/mkdocs/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/blog/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/scripts-and-snippets/neofetch/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://deleven.net/tags/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

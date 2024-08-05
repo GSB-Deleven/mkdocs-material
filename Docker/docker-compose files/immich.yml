@@ -1,0 +1,83 @@
+#############################################################################################################################################################
+# used this one as a guide https://github.com/bigbeartechworld/big-bear-video-assets/blob/main/how-to-install-immich-on-portainer/docker-compose.yml
+#############################################################################################################################################################
+
+
+version: "3" # Use version 3 of the docker-compose file format
+
+# Service definitions for the big-bear-immich application
+services:
+  # Main Immich Server service configuration
+  immich-server:
+    container_name: immich-server # Name of the running container
+    image: ghcr.io/immich-app/immich-server:v1.111.0 # Image to be used
+    ports: # Mapping ports from the host OS to the container
+      - 2283:3001
+    volumes: # Mounting directories for persistent data storage
+      - /mnt/PR4100_Immich:/usr/src/app/upload # Map the host directory to the container directory
+    environment: # Setting environment variables
+      DB_HOSTNAME: immich-postgres
+      DB_USERNAME: portainer
+      DB_PASSWORD: PUT_YOU_OWN_PASSWORD_HERE
+      DB_DATABASE_NAME: immich
+      DB_PORT: 5432
+      REDIS_HOSTNAME: immich-redis
+      IMMICH_MACHINE_LEARNING_URL: http://immich-machine-learning:3003
+    depends_on: # Dependencies to ensure the order of service startup
+      - redis
+      - database
+    restart: always # Policy to always restart the container if it stops
+    networks:
+      - immich-network
+
+  # Configuration for Immich Machine Learning service
+  immich-machine-learning:
+    container_name: immich-machine-learning # Name of the running container
+    image: ghcr.io/immich-app/immich-machine-learning:v1.111.0 # Image to be used
+    volumes: # Mounting directories for persistent data storage
+      - immich_cache:/cache
+    environment: # Setting environment variables
+      DB_HOSTNAME: immich-postgres
+      DB_USERNAME: portainer
+      DB_PASSWORD: cb9Bp&kBvkv39uCF%CTZ8T4n^**aCWz6#wfZAe9&iThAe*u49Wk5CFwY89R9y#Dc
+      DB_DATABASE_NAME: immich
+      DB_PORT: 5432
+      REDIS_HOSTNAME: immich-redis
+    restart: always # Policy to always restart the container if it stops
+    networks:
+      - immich-network
+
+  # Configuration for Redis service
+  redis:
+    container_name: immich-redis # Name of the running container
+    image: redis:6.2-alpine@sha256:70a7a5b641117670beae0d80658430853896b5ef269ccf00d1827427e3263fa3 # Image to be used
+    restart: always # Policy to always restart the container if it stops
+    networks:
+      - immich-network
+
+  # Configuration for Database service
+  database:
+    container_name: immich-postgres # Name of the running container
+    image: tensorchord/pgvecto-rs:pg14-v0.2.0 # Image to be used
+    environment: # Setting environment variables
+      POSTGRES_PASSWORD: cb9Bp&kBvkv39uCF%CTZ8T4n^**aCWz6#wfZAe9&iThAe*u49Wk5CFwY89R9y#Dc
+      POSTGRES_USER: portainer
+      POSTGRES_DB: immich
+      PG_DATA: /var/lib/postgresql/data
+    volumes: # Mounting directories for persistent data storage
+      - immich_postgres:/var/lib/postgresql/data
+    restart: always # Policy to always restart the container if it stops
+    networks:
+      - immich-network
+
+# Network definitions
+networks:
+  immich-network:
+    driver: bridge
+
+# Define named volumes for data persistence.
+volumes:
+  immich_cache:
+    driver: local
+  immich_postgres:
+    driver: local
