@@ -15,7 +15,7 @@ services:
       - 2283:3001
     volumes: # Mounting directories for persistent data storage
       - /mnt/PR4100_Immich:/usr/src/app/upload # Map the host directory to the container directory
-      - /mnt/DS920_photos:/mnt/DS920_photos:ro # My External Library, see https://immich.app/docs/guides/external-library/
+      - /mnt/DS920_photos:/usr/src/app/external:ro # My External Library, see https://immich.app/docs/guides/external-library/
     environment: # Setting environment variables
       DB_HOSTNAME: immich-postgres
       DB_USERNAME: portainer
